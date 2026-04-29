@@ -1,0 +1,2752 @@
+{
+  "academicYears": [
+    "2023-2024",
+    "2024-2025"
+  ],
+  "generatedAt": "2026-04-29T14:20:04.638Z",
+  "datasets": {
+    "2023-2024": {
+      "academicYear": "2023-2024",
+      "generatedAt": "2026-04-29T14:20:00.747Z",
+      "sourceCount": 46,
+      "facilityCount": 46,
+      "failures": [],
+      "facilities": [
+        {
+          "name": "Deaconess",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/deaconessRevised.xlsx",
+          "placements": {
+            "total": 500,
+            "byShift": {
+              "Day": 330,
+              "Evening": 64
+            },
+            "byStudentType": {
+              "BSN": 186,
+              "ADN": 312,
+              "SurgTech": 2
+            },
+            "byProgress": {
+              "J2": 122,
+              "Q5": 22,
+              "prec": 106,
+              "Q2": 76,
+              "Q4": 16,
+              "Q1": 80,
+              "S1": 21,
+              "Q3": 40,
+              "J2 obs": 6,
+              "S1 obs": 3,
+              "J1": 2,
+              "Q2 obs": 6
+            },
+            "byQuarter": {
+              "Fall": 157,
+              "Winter": 168,
+              "Spring": 98,
+              "Summer": 77
+            }
+          }
+        },
+        {
+          "name": "Eastern State",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/easternStateRevised.xlsx",
+          "placements": {
+            "total": 132,
+            "byShift": {
+              "Evening": 60,
+              "Day": 66
+            },
+            "byStudentType": {
+              "BSN": 83,
+              "ADN": 43,
+              "PN": 6
+            },
+            "byProgress": {
+              "S2": 54,
+              "S1": 24,
+              "Q4": 30,
+              "J1": 6,
+              "prec": 6,
+              "Q3": 12
+            },
+            "byQuarter": {
+              "Fall": 74,
+              "Summer": 18,
+              "Winter": 27,
+              "Spring": 13
+            }
+          }
+        },
+        {
+          "name": "Nw Specialty",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/nwSpecialtyRevised.xlsx",
+          "placements": {
+            "total": 38,
+            "byShift": {
+              "Day": 9
+            },
+            "byStudentType": {
+              "ADN": 25,
+              "SurgTech": 2,
+              "BSN": 4,
+              "PN": 6,
+              "RADT": 1
+            },
+            "byProgress": {
+              "prec": 29,
+              "J1": 2,
+              "J2": 6
+            },
+            "byQuarter": {
+              "Fall": 15,
+              "Winter": 16,
+              "Spring": 7
+            }
+          }
+        },
+        {
+          "name": "Prov Holy Family",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/provHolyFamilyRevised.xlsx",
+          "placements": {
+            "total": 207,
+            "byShift": {
+              "Day": 129
+            },
+            "byStudentType": {
+              "BSN": 145,
+              "ADN": 60,
+              "SurgTech": 2
+            },
+            "byProgress": {
+              "J2": 67,
+              "Q5": 15,
+              "prec": 78,
+              "Q4": 23,
+              "S1": 20,
+              "S1 Obs": 2,
+              "J1": 2
+            },
+            "byQuarter": {
+              "Fall": 51,
+              "Winter": 98,
+              "Summer": 38,
+              "Spring": 20
+            }
+          }
+        },
+        {
+          "name": "Prov Sacred Heart",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/provSacredHeartRevised.xlsx",
+          "placements": {
+            "total": 787,
+            "byShift": {
+              "Day": 530,
+              "Evening": 54
+            },
+            "byStudentType": {
+              "BSN": 524,
+              "ADN": 257,
+              "SurgTech": 6
+            },
+            "byProgress": {
+              "J2": 146,
+              "Q5": 36,
+              "prec": 201,
+              "Q4": 40,
+              "S1": 205,
+              "Q4 obs": 5,
+              "J1": 6,
+              "S1 obs": 5,
+              "Q2 obs": 26,
+              "Q3": 94,
+              "S2": 23
+            },
+            "byQuarter": {
+              "Fall": 222,
+              "Winter": 324,
+              "Spring": 136,
+              "Summer": 105
+            }
+          }
+        },
+        {
+          "name": "St Lukes",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/stLukesRevised.xlsx",
+          "placements": {
+            "total": 120,
+            "byShift": {
+              "Day": 76,
+              "Evening": 37
+            },
+            "byStudentType": {
+              "BSN": 29,
+              "ADN": 86,
+              "PN": 5
+            },
+            "byProgress": {
+              "J1": 74,
+              "Q1": 30,
+              "J2": 9,
+              "prec": 7
+            },
+            "byQuarter": {
+              "Fall": 53,
+              "Winter": 47,
+              "Spring": 20
+            }
+          }
+        },
+        {
+          "name": "Valley Hospital",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/valleyHospitalRevised.xlsx",
+          "placements": {
+            "total": 159,
+            "byShift": {
+              "Day": 92,
+              "Evening": 11
+            },
+            "byStudentType": {
+              "BSN": 95,
+              "ADN": 62,
+              "SurgTech": 2
+            },
+            "byProgress": {
+              "J2": 75,
+              "prec": 56,
+              "Q2": 14,
+              "Q2 Obs": 2,
+              "J2 Obs": 10,
+              "J1": 2
+            },
+            "byQuarter": {
+              "Fall": 48,
+              "Winter": 83,
+              "Spring": 14,
+              "Summer": 14
+            }
+          }
+        },
+        {
+          "name": "Va Spokane",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/East/vaSpokaneRevised.xlsx",
+          "placements": {
+            "total": 51,
+            "byShift": {
+              "Day": 37
+            },
+            "byStudentType": {
+              "BSN": 23,
+              "PN": 22,
+              "LPN": 6
+            },
+            "byProgress": {
+              "prec": 14,
+              "J1": 17,
+              "J2": 14,
+              "S2": 6
+            },
+            "byQuarter": {
+              "Summer": 5,
+              "Fall": 20,
+              "Spring": 9,
+              "Winter": 17
+            }
+          }
+        },
+        {
+          "name": "Evergreen Health",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/evergreenHealthRevised.xlsx",
+          "placements": {
+            "total": 501,
+            "byShift": {
+              "Day": 422
+            },
+            "byStudentType": {
+              "ABSN": 194,
+              "BSN": 145,
+              "ADN": 149,
+              "RNR": 13
+            },
+            "byProgress": {
+              "S3": 96,
+              "prec": 79,
+              "Q5": 68,
+              "Q3": 60,
+              "Q4": 68,
+              "Q6": 8,
+              "J1": 8,
+              "S1": 18,
+              "S2": 72,
+              "Q2": 24
+            },
+            "byQuarter": {
+              "Fall": 205,
+              "Winter": 109,
+              "Spring": 138,
+              "Summer": 49
+            }
+          }
+        },
+        {
+          "name": "Harborview Ambulatory",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/harborviewAmbulatoryRevised.xlsx",
+          "placements": {
+            "total": 64,
+            "byShift": {
+              "Day": 64
+            },
+            "byStudentType": {
+              "BSN": 64
+            },
+            "byProgress": {
+              "Q5 obs": 64
+            },
+            "byQuarter": {
+              "Winter": 32,
+              "Spring": 32
+            }
+          }
+        },
+        {
+          "name": "Harborview",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/harborviewRevised.xlsx",
+          "placements": {
+            "total": 522,
+            "byShift": {
+              "Day": 404,
+              "Evening": 66
+            },
+            "byStudentType": {
+              "BSN": 354,
+              "ADN": 168
+            },
+            "byProgress": {
+              "prec": 52,
+              "Q4": 68,
+              "J2": 56,
+              "Q6": 24,
+              "Q5": 78,
+              "Q2": 72,
+              "Q1": 52,
+              "Q3": 66,
+              "S1": 54
+            },
+            "byQuarter": {
+              "Fall": 138,
+              "Winter": 173,
+              "Spring": 191,
+              "Summer": 20
+            }
+          }
+        },
+        {
+          "name": "Mc Navos",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/mcNavosRevised.xlsx",
+          "placements": {
+            "total": 116,
+            "byShift": {
+              "Day": 116
+            },
+            "byStudentType": {
+              "ADN": 116
+            },
+            "byProgress": {
+              "Q4": 84,
+              "Q5": 32
+            },
+            "byQuarter": {
+              "Fall": 60,
+              "Winter": 28,
+              "Spring": 28
+            }
+          }
+        },
+        {
+          "name": "Overlake",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/overlakeRevised.xlsx",
+          "placements": {
+            "total": 365,
+            "byShift": {
+              "Day": 338
+            },
+            "byStudentType": {
+              "ADN": 189,
+              "BSN": 174,
+              "RNR": 2
+            },
+            "byProgress": {
+              "prec": 27,
+              "J1": 24,
+              "Q3": 97,
+              "Q5": 66,
+              "Q2": 16,
+              "J2": 11,
+              "Q5 obs": 39,
+              "S1 obs": 16,
+              "S1": 46,
+              "Q4 obs": 15,
+              "Q4": 8
+            },
+            "byQuarter": {
+              "Fall": 91,
+              "Winter": 113,
+              "Spring": 142,
+              "Summer": 19
+            }
+          }
+        },
+        {
+          "name": "Prov Everett",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/provEverettRevised.xlsx",
+          "placements": {
+            "total": 709,
+            "byShift": {
+              "Day": 536,
+              "Evening": 76
+            },
+            "byStudentType": {
+              "ABSN": 179,
+              "BSN": 95,
+              "ADN": 435
+            },
+            "byProgress": {
+              "S1": 25,
+              "Q3": 197,
+              "J2": 23,
+              "prec": 97,
+              "S2": 154,
+              "Q5": 142,
+              "Q5 obs": 7,
+              "Q4": 24,
+              "J1": 8,
+              "Q6": 8,
+              "Q2": 24
+            },
+            "byQuarter": {
+              "Fall": 200,
+              "Winter": 186,
+              "Spring": 273,
+              "Summer": 50
+            }
+          }
+        },
+        {
+          "name": "Prov Pacific",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/provPacificRevised.xlsx",
+          "placements": {
+            "total": 213,
+            "byShift": {
+              "Day": 171,
+              "Evening": 27
+            },
+            "byStudentType": {
+              "ADN": 144,
+              "BSN": 63,
+              "ABSN": 6
+            },
+            "byProgress": {
+              "Q1": 32,
+              "Q2": 16,
+              "prec": 15,
+              "S1": 30,
+              "Q3": 24,
+              "Q4": 64,
+              "Q5": 24,
+              "S1 obs": 2,
+              "Q4 obs": 6
+            },
+            "byQuarter": {
+              "Fall": 77,
+              "Winter": 71,
+              "Spring": 48,
+              "Summer": 17
+            }
+          }
+        },
+        {
+          "name": "Seattle Childrens",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/seattleChildrensRevised.xlsx",
+          "placements": {
+            "total": 1096,
+            "byShift": {
+              "Day": 556,
+              "Evening": 383
+            },
+            "byStudentType": {
+              "BSN": 623,
+              "ADN": 302,
+              "ABSN": 167,
+              "ADN-BSN": 4
+            },
+            "byProgress": {
+              "prec": 157,
+              "Q4": 300,
+              "S1": 403,
+              "Q3": 85,
+              "Q5": 139,
+              "S1 obs": 2,
+              "S1  obs": 2,
+              "Q4  obs": 4,
+              "J2  obs": 4
+            },
+            "byQuarter": {
+              "Fall": 427,
+              "Winter": 431,
+              "Spring": 231,
+              "Summer": 7
+            }
+          }
+        },
+        {
+          "name": "Seattle V A",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/seattleVARevised.xlsx",
+          "placements": {
+            "total": 59,
+            "byShift": {
+              "Day": 56
+            },
+            "byStudentType": {
+              "ADN": 56,
+              "BSN": 3
+            },
+            "byProgress": {
+              "Q4": 16,
+              "prec": 3,
+              "Q6": 32,
+              "Q3": 8
+            },
+            "byQuarter": {
+              "Winter": 16,
+              "Spring": 27,
+              "Summer": 16
+            }
+          }
+        },
+        {
+          "name": "Sw Ballrd",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swBallrdRevised.xlsx",
+          "placements": {
+            "total": 130,
+            "byShift": {
+              "Day": 121
+            },
+            "byStudentType": {
+              "BSN": 98,
+              "ADN": 32
+            },
+            "byProgress": {
+              "Q3": 80,
+              "Q4": 32,
+              "J2": 9,
+              "prec": 9
+            },
+            "byQuarter": {
+              "Fall": 62,
+              "Winter": 41,
+              "Spring": 27
+            }
+          }
+        },
+        {
+          "name": "Sw Cherry Hill",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swCherryHillRevised.xlsx",
+          "placements": {
+            "total": 146,
+            "byShift": {
+              "Day": 113
+            },
+            "byStudentType": {
+              "BSN": 59,
+              "ADN": 87
+            },
+            "byProgress": {
+              "Q5": 33,
+              "Q6": 40,
+              "prec": 33,
+              "Q3": 24,
+              "Q4": 16
+            },
+            "byQuarter": {
+              "Fall": 37,
+              "Winter": 38,
+              "Spring": 68,
+              "Summer": 3
+            }
+          }
+        },
+        {
+          "name": "Sw Edmonds",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swEdmondsRevised.xlsx",
+          "placements": {
+            "total": 266,
+            "byShift": {
+              "Day": 175,
+              "Evening": 48
+            },
+            "byStudentType": {
+              "ADN": 202,
+              "BSN": 62,
+              "ABSN": 2
+            },
+            "byProgress": {
+              "prec": 43,
+              "Q2": 78,
+              "Q3": 52,
+              "Q1": 36,
+              "Q5": 57
+            },
+            "byQuarter": {
+              "Fall": 77,
+              "Winter": 92,
+              "Spring": 97
+            }
+          }
+        },
+        {
+          "name": "Sw First Hill",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swFirstHillRevised.xlsx",
+          "placements": {
+            "total": 602,
+            "byShift": {
+              "Day": 521,
+              "Night": 9
+            },
+            "byStudentType": {
+              "ADN": 270,
+              "BSN": 332
+            },
+            "byProgress": {
+              "Q6": 99,
+              "Q3": 47,
+              "prec": 72,
+              "J2": 28,
+              "Q4": 63,
+              "Q5": 162,
+              "J1": 9,
+              "Q2": 57,
+              "S1": 50,
+              "Q5 obs": 15
+            },
+            "byQuarter": {
+              "Fall": 178,
+              "Winter": 197,
+              "Spring": 218,
+              "Summer": 9
+            }
+          }
+        },
+        {
+          "name": "Sw Issaquah",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swIssaquahRevised.xlsx",
+          "placements": {
+            "total": 148,
+            "byShift": {
+              "Day": 116
+            },
+            "byStudentType": {
+              "BSN": 50,
+              "ADN": 84,
+              "LPN": 14
+            },
+            "byProgress": {
+              "prec": 30,
+              "Q3": 30,
+              "Q4": 8,
+              "J1": 8,
+              "Q2": 24,
+              "Q6": 16,
+              "J2": 4,
+              "S2 prec": 2,
+              "Q5": 18,
+              "Q5 obs": 8
+            },
+            "byQuarter": {
+              "Fall": 46,
+              "Spring": 43,
+              "Winter": 39,
+              "Summer": 20
+            }
+          }
+        },
+        {
+          "name": "Sw Mill Creek",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swMillCreekRevised.xlsx",
+          "placements": {
+            "total": 3,
+            "byShift": {},
+            "byStudentType": {
+              "ADN": 3
+            },
+            "byProgress": {
+              "prec": 3
+            },
+            "byQuarter": {
+              "Fall": 1,
+              "Winter": 1,
+              "Spring": 1
+            }
+          }
+        },
+        {
+          "name": "Sw O R",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/swORRevised.xlsx",
+          "placements": {
+            "total": 15,
+            "byShift": {
+              "Day": 12
+            },
+            "byStudentType": {
+              "ADN": 1,
+              "BSN": 14
+            },
+            "byProgress": {
+              "prec": 3,
+              "J2obs": 9,
+              "Q5": 1,
+              "Q5 obs": 2
+            },
+            "byQuarter": {
+              "Winter": 11,
+              "Spring": 4
+            }
+          }
+        },
+        {
+          "name": "Virgina Mason",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/virginaMasonRevised.xlsx",
+          "placements": {
+            "total": 92,
+            "byShift": {
+              "Day": 62,
+              "Night": 2
+            },
+            "byStudentType": {
+              "BSN": 55,
+              "ADN": 32,
+              "ABSN": 5
+            },
+            "byProgress": {
+              "prec": 28,
+              "Q5": 32,
+              "Q3": 16,
+              "Q6": 8,
+              "Q4": 8
+            },
+            "byQuarter": {
+              "Spring": 43,
+              "Fall": 16,
+              "Winter": 25,
+              "Summer": 8
+            }
+          }
+        },
+        {
+          "name": "V Medical Center",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/vMedicalCenterRevised.xlsx",
+          "placements": {
+            "total": 298,
+            "byShift": {
+              "Day": 227
+            },
+            "byStudentType": {
+              "ADN": 158,
+              "BSN": 112,
+              "LPN": 16,
+              "unknown": 8,
+              "LPN-BSN": 4
+            },
+            "byProgress": {
+              "prec": 71,
+              "Q3": 100,
+              "Q5": 44,
+              "Q6": 8,
+              "J2": 8,
+              "Q1": 12,
+              "Q2": 31,
+              "Q4": 24
+            },
+            "byQuarter": {
+              "Fall": 62,
+              "Spring": 110,
+              "Summer": 49,
+              "Winter": 77
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Anne",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/North/vmfhStAnneRevised.xlsx",
+          "placements": {
+            "total": 74,
+            "byShift": {
+              "Day": 56
+            },
+            "byStudentType": {
+              "ADN": 71,
+              "ABSN": 1,
+              "BSN": 2
+            },
+            "byProgress": {
+              "prec": 18,
+              "Q3": 21,
+              "Q4": 14,
+              "Q6": 18,
+              "obs": 3
+            },
+            "byQuarter": {
+              "Fall": 27,
+              "Winter": 14,
+              "Spring": 33
+            }
+          }
+        },
+        {
+          "name": "American Lake",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/americanLakeRevised.xlsx",
+          "placements": {
+            "total": 36,
+            "byShift": {
+              "Day": 36
+            },
+            "byStudentType": {
+              "PN": 36
+            },
+            "byProgress": {
+              "Q3": 20,
+              "Q2": 8,
+              "Q4": 8
+            },
+            "byQuarter": {
+              "Spring": 10,
+              "Summer": 10,
+              "Winter": 16
+            }
+          }
+        },
+        {
+          "name": "Mason General",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/masonGeneralRevised.xlsx",
+          "placements": {
+            "total": 24,
+            "byShift": {
+              "Day": 18
+            },
+            "byStudentType": {
+              "ADN": 24
+            },
+            "byProgress": {
+              "Q2": 9,
+              "prec": 6,
+              "Q3": 9
+            },
+            "byQuarter": {
+              "Winter": 9,
+              "Spring": 15
+            }
+          }
+        },
+        {
+          "name": "Mc Allenmore",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcAllenmoreRevised.xlsx",
+          "placements": {
+            "total": 58,
+            "byShift": {
+              "Day": 42
+            },
+            "byStudentType": {
+              "ABSN": 1,
+              "ADN": 47,
+              "BSN": 8,
+              "LPN-BSN": 2
+            },
+            "byProgress": {
+              "prec": 16,
+              "Q4": 18,
+              "Q5": 24
+            },
+            "byQuarter": {
+              "Fall": 16,
+              "Winter": 17,
+              "Spring": 23,
+              "Summer": 2
+            }
+          }
+        },
+        {
+          "name": "Mc Auburn",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcAuburnRevised.xlsx",
+          "placements": {
+            "total": 142,
+            "byShift": {
+              "Day": 113
+            },
+            "byStudentType": {
+              "BSN": 12,
+              "ADN": 114,
+              "LPN-BSN": 11,
+              "VLBSN": 2,
+              "ABSN": 2,
+              "PN": 1
+            },
+            "byProgress": {
+              "prec": 29,
+              "Q4": 40,
+              "Q5": 52,
+              "Q3": 9,
+              "Q6": 8,
+              "J2 obs": 2,
+              "S1 obs": 2
+            },
+            "byQuarter": {
+              "Fall": 50,
+              "Winter": 42,
+              "Spring": 37,
+              "Summer": 13
+            }
+          }
+        },
+        {
+          "name": "Mc Capital",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcCapitalRevised.xlsx",
+          "placements": {
+            "total": 109,
+            "byShift": {
+              "Day": 86
+            },
+            "byStudentType": {
+              "ADN": 58,
+              "BSN": 48,
+              "LPN-BSN": 3
+            },
+            "byProgress": {
+              "Q4": 18,
+              "prec": 23,
+              "Q2": 14,
+              "Q3": 18,
+              "S1 obs": 8,
+              "S1": 20,
+              "J2": 8
+            },
+            "byQuarter": {
+              "Fall": 38,
+              "Winter": 41,
+              "Spring": 26,
+              "Summer": 4
+            }
+          }
+        },
+        {
+          "name": "Mc Covington",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcCovingtonRevised.xlsx",
+          "placements": {
+            "total": 2,
+            "byShift": {},
+            "byStudentType": {
+              "ABSN": 2
+            },
+            "byProgress": {
+              "prec": 2
+            },
+            "byQuarter": {
+              "Fall": 2
+            }
+          }
+        },
+        {
+          "name": "Mc Good Samaritan",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcGoodSamaritanRevised.xlsx",
+          "placements": {
+            "total": 456,
+            "byShift": {
+              "Day": 372
+            },
+            "byStudentType": {
+              "BSN": 168,
+              "ADN": 150,
+              "PN": 96,
+              "LPN-BSN": 31,
+              "ABSN": 7,
+              "VLBSN": 4
+            },
+            "byProgress": {
+              "prec": 84,
+              "J2": 64,
+              "S1": 96,
+              "Q5": 88,
+              "Q4": 64,
+              "Q3": 32,
+              "Q3 \r\nHEET": 2,
+              "Q6": 8,
+              "Q6 HEET": 8,
+              "Q3 HEET": 6,
+              "J2 obs": 2,
+              "S1 obs": 2
+            },
+            "byQuarter": {
+              "Fall": 141,
+              "Winter": 143,
+              "Spring": 130,
+              "Summer": 42
+            }
+          }
+        },
+        {
+          "name": "Mc Mary Bridge",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcMaryBridgeRevised.xlsx",
+          "placements": {
+            "total": 343,
+            "byShift": {
+              "Day": 255,
+              "Evening": 63
+            },
+            "byStudentType": {
+              "BSN": 168,
+              "ADN": 141,
+              "LPN-BSN": 34
+            },
+            "byProgress": {
+              "prec": 25,
+              "S1": 74,
+              "Q3": 33,
+              "Q5": 88,
+              "Q4": 40,
+              "J2": 83
+            },
+            "byQuarter": {
+              "Fall": 113,
+              "Winter": 97,
+              "Summer": 37,
+              "Spring": 96
+            }
+          }
+        },
+        {
+          "name": "Mc O C E D",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcOCEDRevised.xlsx",
+          "placements": {
+            "total": 21,
+            "byShift": {
+              "Day": 12,
+              "Evening": 1
+            },
+            "byStudentType": {
+              "BSN": 6,
+              "ADN": 15
+            },
+            "byProgress": {
+              "prec": 8,
+              "Q4": 13
+            },
+            "byQuarter": {
+              "Fall": 7,
+              "Winter": 5,
+              "Spring": 9
+            }
+          }
+        },
+        {
+          "name": "Mc Tacoma",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/mcTacomaRevised.xlsx",
+          "placements": {
+            "total": 287,
+            "byShift": {
+              "Day": 145,
+              "Evening": 66
+            },
+            "byStudentType": {
+              "LPN-BSN": 9,
+              "BSN": 23,
+              "ADN": 238,
+              "PN": 16,
+              "ABSN": 1
+            },
+            "byProgress": {
+              "S1": 4,
+              "prec": 76,
+              "Q3": 70,
+              "Q4": 63,
+              "Q5": 42,
+              "Q3 HEET": 7,
+              "Q6": 8,
+              "Q6 HEET": 8,
+              "J2": 4,
+              "Q3 obs HEET": 1,
+              "J2 obs": 2,
+              "S1 obs": 2
+            },
+            "byQuarter": {
+              "Fall": 82,
+              "Winter": 73,
+              "Spring": 105,
+              "Summer": 27
+            }
+          }
+        },
+        {
+          "name": "Prov Centralia",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/provCentraliaRevised.xlsx",
+          "placements": {
+            "total": 142,
+            "byShift": {
+              "Day": 87
+            },
+            "byStudentType": {
+              "ADN": 109,
+              "LPN-RN": 16,
+              "BSN": 6,
+              "LPN-BSN": 5,
+              "AND": 6
+            },
+            "byProgress": {
+              "prec": 55,
+              "Q5": 46,
+              "Q4": 17,
+              "Q2": 12,
+              "Q3": 12
+            },
+            "byQuarter": {
+              "Fall": 39,
+              "Winter": 37,
+              "Spring": 44,
+              "Summer": 22
+            }
+          }
+        },
+        {
+          "name": "Prov St Peter",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/provStPeterRevised.xlsx",
+          "placements": {
+            "total": 515,
+            "byShift": {
+              "Day": 405
+            },
+            "byStudentType": {
+              "BSN": 303,
+              "ADN": 172,
+              "LPN-BSN": 40
+            },
+            "byProgress": {
+              "prec": 110,
+              "J2": 96,
+              "Q4": 20,
+              "Q5": 56,
+              "S1": 196,
+              "Q2": 9,
+              "Q3": 18,
+              "Q5 obs": 2,
+              "S1 obs": 8
+            },
+            "byQuarter": {
+              "Fall": 225,
+              "Winter": 161,
+              "Spring": 106,
+              "Summer": 23
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Anthony",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStAnthonyRevised.xlsx",
+          "placements": {
+            "total": 119,
+            "byShift": {
+              "Day": 94
+            },
+            "byStudentType": {
+              "ADN": 93,
+              "VLBSN": 24,
+              "PN": 1,
+              "ABSN": 1
+            },
+            "byProgress": {
+              "Q5": 44,
+              "prec": 25,
+              "Q3": 16,
+              "Q4": 33,
+              "Q2 obs": 1
+            },
+            "byQuarter": {
+              "Winter": 35,
+              "Spring": 43,
+              "Summer": 14,
+              "Fall": 27
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Clare",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStClareRevised.xlsx",
+          "placements": {
+            "total": 93,
+            "byShift": {
+              "Day": 66
+            },
+            "byStudentType": {
+              "BSN": 13,
+              "ADN": 32,
+              "LPN-BSN": 2,
+              "PN": 43,
+              "AND": 2,
+              "ABSN": 1
+            },
+            "byProgress": {
+              "prec": 27,
+              "Q4": 8,
+              "Q3": 44,
+              "Q5": 8,
+              "Q3 obs": 6
+            },
+            "byQuarter": {
+              "Fall": 30,
+              "Winter": 30,
+              "Spring": 27,
+              "Summer": 6
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Elizabeth",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStElizabethRevised.xlsx",
+          "placements": {
+            "total": 7,
+            "byShift": {},
+            "byStudentType": {
+              "ADN": 5,
+              "BSN": 1,
+              "ABSN": 1
+            },
+            "byProgress": {
+              "prec": 7
+            },
+            "byQuarter": {
+              "Winter": 5,
+              "Spring": 2
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Francis",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStFrancisRevised.xlsx",
+          "placements": {
+            "total": 121,
+            "byShift": {
+              "Day": 99
+            },
+            "byStudentType": {
+              "ADN": 100,
+              "BSN": 19,
+              "ABSN": 2
+            },
+            "byProgress": {
+              "prec": 22,
+              "Q3": 65,
+              "Q5": 8,
+              "Q4": 8,
+              "Q2": 7,
+              "Q6": 8,
+              "Q2 obs": 3
+            },
+            "byQuarter": {
+              "Fall": 26,
+              "Winter": 47,
+              "Spring": 48
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Joseph",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStJosephRevised.xlsx",
+          "placements": {
+            "total": 431,
+            "byShift": {
+              "Day": 347
+            },
+            "byStudentType": {
+              "BSN": 161,
+              "ADN": 197,
+              "LPN-BSN": 40,
+              "LPN-RN": 16,
+              "ABSN": 10,
+              "VLBSN": 5,
+              "PN": 2
+            },
+            "byProgress": {
+              "prec": 84,
+              "Q4": 77,
+              "Q2": 97,
+              "Q5": 8,
+              "Q3": 17,
+              "S1": 48,
+              "Q6": 8,
+              "J2": 88,
+              "Q4 obs": 4
+            },
+            "byQuarter": {
+              "Fall": 133,
+              "Winter": 130,
+              "Spring": 107,
+              "Summer": 61
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Michael",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/vmfhStMichaelRevised.xlsx",
+          "placements": {
+            "total": 375,
+            "byShift": {
+              "Day": 323
+            },
+            "byStudentType": {
+              "VLBSN": 37,
+              "ADN": 256,
+              "PN": 82
+            },
+            "byProgress": {
+              "Q5": 76,
+              "Q3": 145,
+              "Q4": 34,
+              "prec": 52,
+              "Q2": 42,
+              "Q3 obs": 10,
+              "obs": 10,
+              "Q2 obs": 6
+            },
+            "byQuarter": {
+              "Fall": 110,
+              "Spring": 175,
+              "Summer": 23,
+              "Winter": 67
+            }
+          }
+        },
+        {
+          "name": "Western State",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2023-2024/South/westernStateRevised.xlsx",
+          "placements": {
+            "total": 448,
+            "byShift": {
+              "Day": 411,
+              "Evening": 32
+            },
+            "byStudentType": {
+              "ADN": 42,
+              "BSN": 152,
+              "PN": 202,
+              "LPN-RN": 16,
+              "LPN-BSN": 16,
+              "VLBSN": 20
+            },
+            "byProgress": {
+              "Q4": 129,
+              "Q3": 112,
+              "Q2": 58,
+              "Q7": 16,
+              "J2": 128,
+              "prec": 5
+            },
+            "byQuarter": {
+              "Fall": 117,
+              "Winter": 174,
+              "Summer": 28,
+              "Spring": 129
+            }
+          }
+        }
+      ]
+    },
+    "2024-2025": {
+      "academicYear": "2024-2025",
+      "generatedAt": "2026-04-29T14:20:04.638Z",
+      "sourceCount": 46,
+      "facilityCount": 46,
+      "failures": [],
+      "facilities": [
+        {
+          "name": "Eastern State",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/easternStateRevised.xlsx",
+          "placements": {
+            "total": 378,
+            "byShift": {
+              "Day": 104,
+              "Evening": 268
+            },
+            "byStudentType": {
+              "BSN": 314,
+              "ADN": 60,
+              "LPN": 4
+            },
+            "byProgress": {
+              "S2": 56,
+              "S1": 252,
+              "Q4": 32,
+              "prec": 6,
+              "Q3": 28,
+              "J1": 4
+            },
+            "byQuarter": {
+              "Fall": 161,
+              "Summer": 10,
+              "Winter": 148,
+              "Spring": 59
+            }
+          }
+        },
+        {
+          "name": "Mc Deaconess",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/mcDeaconessRevised.xlsx",
+          "placements": {
+            "total": 495,
+            "byShift": {
+              "Day": 392
+            },
+            "byStudentType": {
+              "BSN": 272,
+              "ADN": 223
+            },
+            "byProgress": {
+              "J2": 171,
+              "prec": 103,
+              "Q1": 64,
+              "Q2": 64,
+              "S1": 59,
+              "Q3": 32,
+              "J2 Obs": 2
+            },
+            "byQuarter": {
+              "Summer": 107,
+              "Fall": 137,
+              "Winter": 173,
+              "Spring": 78
+            }
+          }
+        },
+        {
+          "name": "Nw Specialty",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/nwSpecialtyRevised.xlsx",
+          "placements": {
+            "total": 43,
+            "byShift": {
+              "Day": 14
+            },
+            "byStudentType": {
+              "ADN": 24,
+              "SurgTech": 6,
+              "BSN": 5,
+              "RADT": 8
+            },
+            "byProgress": {
+              "prec": 29,
+              "S1": 4,
+              "J1": 2,
+              "J2": 2
+            },
+            "byQuarter": {
+              "Fall": 14,
+              "Winter": 19,
+              "Summer": 4,
+              "Spring": 6
+            }
+          }
+        },
+        {
+          "name": "Odessa",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/odessaRevised.xlsx",
+          "placements": {
+            "total": 1,
+            "byShift": {},
+            "byStudentType": {
+              "BSN": 1
+            },
+            "byProgress": {
+              "prec": 1
+            },
+            "byQuarter": {
+              "Winter": 1
+            }
+          }
+        },
+        {
+          "name": "Prov Holy Family",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/provHolyFamilyRevised.xlsx",
+          "placements": {
+            "total": 268,
+            "byShift": {
+              "Day": 184
+            },
+            "byStudentType": {
+              "BSN": 208,
+              "ADN": 60
+            },
+            "byProgress": {
+              "J2": 94,
+              "Q5": 16,
+              "Q4": 20,
+              "prec": 82,
+              "S1": 54,
+              "S1 obs": 2
+            },
+            "byQuarter": {
+              "Summer": 69,
+              "Fall": 64,
+              "Winter": 104,
+              "Spring": 31
+            }
+          }
+        },
+        {
+          "name": "Prov P M G Clinics",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/provPMGClinicsRevised.xlsx",
+          "placements": {
+            "total": 9,
+            "byShift": {
+              "Day": 8
+            },
+            "byStudentType": {
+              "BSN": 9
+            },
+            "byProgress": {
+              "S1": 8,
+              "prec": 1
+            },
+            "byQuarter": {
+              "Fall": 3,
+              "Summer": 1,
+              "Winter": 5
+            }
+          }
+        },
+        {
+          "name": "Prov Sacred Heart",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/provSacredHeartRevised.xlsx",
+          "placements": {
+            "total": 1222,
+            "byShift": {
+              "Day": 901,
+              "Evening": 101
+            },
+            "byStudentType": {
+              "BSN": 950,
+              "ADN": 272
+            },
+            "byProgress": {
+              "J2": 195,
+              "Q5": 53,
+              "prec": 214,
+              "Q4": 51,
+              "S1": 570,
+              "Q2 Obs": 16,
+              "S2 prec": 6,
+              "Q3": 96,
+              "S1 Obs": 5,
+              "S2": 16
+            },
+            "byQuarter": {
+              "Summer": 193,
+              "Fall": 445,
+              "Winter": 444,
+              "Spring": 140
+            }
+          }
+        },
+        {
+          "name": "Prov Stevens Cnty",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/provStevensCntyRevised.xlsx",
+          "placements": {
+            "total": 5,
+            "byShift": {},
+            "byStudentType": {
+              "BSN": 5
+            },
+            "byProgress": {
+              "prec": 5
+            },
+            "byQuarter": {
+              "Fall": 2,
+              "Winter": 3
+            }
+          }
+        },
+        {
+          "name": "St Lukes",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/stLukesRevised.xlsx",
+          "placements": {
+            "total": 187,
+            "byShift": {
+              "Day": 130,
+              "Evening": 48
+            },
+            "byStudentType": {
+              "BSN": 68,
+              "ADN": 119
+            },
+            "byProgress": {
+              "J1": 130,
+              "Q1": 48,
+              "prec": 9
+            },
+            "byQuarter": {
+              "Summer": 13,
+              "Fall": 81,
+              "Winter": 61,
+              "Spring": 32
+            }
+          }
+        },
+        {
+          "name": "Valley Hospital",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/valleyHospitalRevised.xlsx",
+          "placements": {
+            "total": 338,
+            "byShift": {
+              "Day": 246,
+              "Evening": 48
+            },
+            "byStudentType": {
+              "BSN": 225,
+              "ADN": 113
+            },
+            "byProgress": {
+              "J2": 224,
+              "prec": 41,
+              "Q2": 50,
+              "pract": 3,
+              "J2 Obs": 20
+            },
+            "byQuarter": {
+              "Summer": 41,
+              "Fall": 121,
+              "Winter": 136,
+              "Spring": 40
+            }
+          }
+        },
+        {
+          "name": "Va Spokane",
+          "region": "East",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/East/vaSpokaneRevised.xlsx",
+          "placements": {
+            "total": 22,
+            "byShift": {
+              "Day": 19
+            },
+            "byStudentType": {
+              "LPN": 19,
+              "BSN": 1,
+              "ADN": 2
+            },
+            "byProgress": {
+              "J1": 8,
+              "J2": 11,
+              "prec": 2,
+              "S2-Leadership": 1
+            },
+            "byQuarter": {
+              "Fall": 10,
+              "Winter": 11,
+              "Summer": 1
+            }
+          }
+        },
+        {
+          "name": "Evergreen Health",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/evergreenHealthRevised.xlsx",
+          "placements": {
+            "total": 508,
+            "byShift": {
+              "Day": 419
+            },
+            "byStudentType": {
+              "ABSN": 187,
+              "ADN": 188,
+              "BSN": 128,
+              "RNR": 5
+            },
+            "byProgress": {
+              "prec": 89,
+              "Q5": 79,
+              "Q4": 56,
+              "Q3": 88,
+              "Q2": 8,
+              "J2": 48,
+              "J1": 8,
+              "S1": 118,
+              "Q5 obs": 2
+            },
+            "byQuarter": {
+              "Fall": 169,
+              "Winter": 144,
+              "Spring": 153,
+              "Summer": 42
+            }
+          }
+        },
+        {
+          "name": "Harborview",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/harborviewRevised.xlsx",
+          "placements": {
+            "total": 470,
+            "byShift": {
+              "Day": 353,
+              "Evening": 56
+            },
+            "byStudentType": {
+              "BSN": 350,
+              "ADN": 120
+            },
+            "byProgress": {
+              "Q6 prec": 12,
+              "prec": 49,
+              "Q4": 56,
+              "J2": 56,
+              "Q1": 40,
+              "Q5": 64,
+              "Q2": 54,
+              "Q3": 70,
+              "S1": 55,
+              "Q3 obs": 8,
+              "Q5 obs": 6
+            },
+            "byQuarter": {
+              "Fall": 110,
+              "Winter": 147,
+              "Spring": 190,
+              "Summer": 23
+            }
+          }
+        },
+        {
+          "name": "Multicare Navos",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/multicareNavosRevised.xlsx",
+          "placements": {
+            "total": 25,
+            "byShift": {
+              "Day": 25
+            },
+            "byStudentType": {
+              "BSN": 25
+            },
+            "byProgress": {
+              "Q3": 25
+            },
+            "byQuarter": {
+              "Fall": 10,
+              "Spring": 15
+            }
+          }
+        },
+        {
+          "name": "Overlake",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/overlakeRevised.xlsx",
+          "placements": {
+            "total": 348,
+            "byShift": {
+              "Day": 326
+            },
+            "byStudentType": {
+              "ADN": 176,
+              "BSN": 150,
+              "ABSN": 18,
+              "RNR": 4
+            },
+            "byProgress": {
+              "prec": 22,
+              "J1": 23,
+              "Q2": 47,
+              "Q5": 65,
+              "Q3": 73,
+              "S2": 2,
+              "Q4": 48,
+              "J2": 24,
+              "Q5 Obs": 5,
+              "J2 Obs": 1,
+              "S1": 32,
+              "Q3 Obs": 5,
+              "Q2 Obs": 1
+            },
+            "byQuarter": {
+              "Fall": 106,
+              "Winter": 111,
+              "Spring": 103,
+              "Summer": 28
+            }
+          }
+        },
+        {
+          "name": "Prov Everett",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/provEverettRevised.xlsx",
+          "placements": {
+            "total": 715,
+            "byShift": {
+              "Day": 577,
+              "Evening": 76
+            },
+            "byStudentType": {
+              "ABSN": 242,
+              "BSN": 24,
+              "ADN": 449
+            },
+            "byProgress": {
+              "J2": 90,
+              "Q3": 111,
+              "prec": 62,
+              "Q6": 90,
+              "Q5": 188,
+              "S1": 146,
+              "Q4": 8,
+              "Q2": 20
+            },
+            "byQuarter": {
+              "Fall": 195,
+              "Winter": 253,
+              "Spring": 225,
+              "Summer": 42
+            }
+          }
+        },
+        {
+          "name": "Prov Pacific",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/provPacificRevised.xlsx",
+          "placements": {
+            "total": 196,
+            "byShift": {
+              "Day": 155,
+              "Evening": 27
+            },
+            "byStudentType": {
+              "BSN": 67,
+              "ADN": 129
+            },
+            "byProgress": {
+              "S1": 32,
+              "Q3": 24,
+              "Q4": 54,
+              "Q5": 72,
+              "prec": 14
+            },
+            "byQuarter": {
+              "Fall": 51,
+              "Winter": 55,
+              "Spring": 82,
+              "Summer": 8
+            }
+          }
+        },
+        {
+          "name": "Seattle Childrens",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/seattleChildrensRevised.xlsx",
+          "placements": {
+            "total": 1217,
+            "byShift": {
+              "Day": 481,
+              "Evening": 583
+            },
+            "byStudentType": {
+              "BSN": 721,
+              "ADN": 478,
+              "ABSN": 18
+            },
+            "byProgress": {
+              "prec": 153,
+              "S1": 181,
+              "Q4": 430,
+              "Q6": 299,
+              "Q5": 132,
+              "J2": 4
+            },
+            "byQuarter": {
+              "Summer": 13,
+              "Fall": 471,
+              "Winter": 407,
+              "Spring": 326
+            }
+          }
+        },
+        {
+          "name": "Seattle V A",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/seattleVARevised.xlsx",
+          "placements": {
+            "total": 405,
+            "byShift": {
+              "Day": 405
+            },
+            "byStudentType": {
+              "ADN": 178,
+              "LPN": 6,
+              "PN": 96,
+              "BSN": 113,
+              "ABSN": 2,
+              "AND": 8,
+              "LPN-RN": 2
+            },
+            "byProgress": {
+              "Q3": 214,
+              "Q4": 24,
+              "Q5": 42,
+              "Q6": 65,
+              "S2": 2,
+              "Q2": 50,
+              "Q1": 8
+            },
+            "byQuarter": {
+              "Fall": 144,
+              "Winter": 89,
+              "Spring": 156,
+              "Summer": 16
+            }
+          }
+        },
+        {
+          "name": "Sw Ballard",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swBallardRevised.xlsx",
+          "placements": {
+            "total": 151,
+            "byShift": {
+              "Day": 139
+            },
+            "byStudentType": {
+              "BSN": 101,
+              "ADN": 50
+            },
+            "byProgress": {
+              "Q3": 20,
+              "Q4": 50,
+              "Q 3": 60,
+              "J2": 9,
+              "prec": 12
+            },
+            "byQuarter": {
+              "Fall": 50,
+              "Winter": 49,
+              "Spring": 52
+            }
+          }
+        },
+        {
+          "name": "Sw Cherry Hill",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swCherryHillRevised.xlsx",
+          "placements": {
+            "total": 178,
+            "byShift": {
+              "Day": 130
+            },
+            "byStudentType": {
+              "BSN": 67,
+              "ADN": 101,
+              "ABSN": 10
+            },
+            "byProgress": {
+              "prec": 47,
+              "Q6": 48,
+              "Q4": 24,
+              "Q5": 24,
+              "S1": 1,
+              "Q2": 10,
+              "Q3": 24
+            },
+            "byQuarter": {
+              "Winter": 54,
+              "Fall": 41,
+              "Spring": 63,
+              "Summer": 20
+            }
+          }
+        },
+        {
+          "name": "Sw Edmonds",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swEdmondsRevised.xlsx",
+          "placements": {
+            "total": 365,
+            "byShift": {
+              "Day": 278,
+              "Evening": 48
+            },
+            "byStudentType": {
+              "ABSN": 69,
+              "ADN": 231,
+              "BSN": 65
+            },
+            "byProgress": {
+              "prec": 39,
+              "S1": 48,
+              "Q2": 60,
+              "Q1": 24,
+              "Q3": 64,
+              "Q5": 71,
+              "J2": 16,
+              "Q 3": 34,
+              "Q3 obs": 1,
+              "Q2 obs": 8
+            },
+            "byQuarter": {
+              "Fall": 92,
+              "Spring": 138,
+              "Winter": 111,
+              "Summer": 24
+            }
+          }
+        },
+        {
+          "name": "Sw First Hill",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swFirstHillRevised.xlsx",
+          "placements": {
+            "total": 601,
+            "byShift": {
+              "Day": 526
+            },
+            "byStudentType": {
+              "ADN": 270,
+              "BSN": 307,
+              "ABSN": 24
+            },
+            "byProgress": {
+              "Q6": 86,
+              "Q4": 23,
+              "Q3": 81,
+              "prec": 73,
+              "Q5": 136,
+              "S1": 41,
+              "J1": 9,
+              "J2": 35,
+              "Q2": 51,
+              "Q 3": 66
+            },
+            "byQuarter": {
+              "Fall": 134,
+              "Winter": 191,
+              "Spring": 233,
+              "Summer": 43
+            }
+          }
+        },
+        {
+          "name": "Sw Issaquah",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swIssaquahRevised.xlsx",
+          "placements": {
+            "total": 225,
+            "byShift": {
+              "Day": 196
+            },
+            "byStudentType": {
+              "ADN": 141,
+              "BSN": 68,
+              "LPN": 16
+            },
+            "byProgress": {
+              "Q3": 78,
+              "J1": 8,
+              "Q4": 16,
+              "prec": 29,
+              "J2": 8,
+              "Q6": 32,
+              "Q2": 8,
+              "Q5": 44,
+              "Q5 Nurse Tech Trial": 2
+            },
+            "byQuarter": {
+              "Fall": 42,
+              "Winter": 45,
+              "Spring": 120,
+              "Summer": 18
+            }
+          }
+        },
+        {
+          "name": "Sw Mill Creek",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swMillCreekRevised.xlsx",
+          "placements": {
+            "total": 3,
+            "byShift": {},
+            "byStudentType": {
+              "ADN": 3
+            },
+            "byProgress": {
+              "prec": 3
+            },
+            "byQuarter": {
+              "Fall": 1,
+              "Winter": 1,
+              "Spring": 1
+            }
+          }
+        },
+        {
+          "name": "Sw O R",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/swORRevised.xlsx",
+          "placements": {
+            "total": 15,
+            "byShift": {
+              "Day": 15
+            },
+            "byStudentType": {
+              "ADN": 11,
+              "BSN": 4
+            },
+            "byProgress": {
+              "Q6 obs": 11,
+              "Q4": 4
+            },
+            "byQuarter": {
+              "Fall": 5,
+              "Winter": 5,
+              "Spring": 5
+            }
+          }
+        },
+        {
+          "name": "Valley Medical Center",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/valleyMedicalCenterRevised.xlsx",
+          "placements": {
+            "total": 448,
+            "byShift": {
+              "Day": 362,
+              "Evening": 12
+            },
+            "byStudentType": {
+              "ADN": 238,
+              "BSN": 172,
+              "LPN": 36,
+              "ABSN": 2
+            },
+            "byProgress": {
+              "prec": 74,
+              "Q3": 106,
+              "Q4": 61,
+              "Q5": 132,
+              "J2": 16,
+              "Q1": 24,
+              "Q2": 25,
+              "Q6": 8,
+              "S2": 2
+            },
+            "byQuarter": {
+              "Fall": 98,
+              "Spring": 163,
+              "Summer": 58,
+              "Winter": 129
+            }
+          }
+        },
+        {
+          "name": "Virginia Mason",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/virginiaMasonRevised.xlsx",
+          "placements": {
+            "total": 95,
+            "byShift": {
+              "Day": 44
+            },
+            "byStudentType": {
+              "BSN": 59,
+              "ADN": 8,
+              "ABSN": 28
+            },
+            "byProgress": {
+              "Q5": 25,
+              "prec": 51,
+              "Q3": 8,
+              "Q2": 7,
+              "Q4": 4
+            },
+            "byQuarter": {
+              "Fall": 13,
+              "Winter": 25,
+              "Spring": 50,
+              "Summer": 7
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Anne",
+          "region": "North",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/North/vmfhStAnneRevised.xlsx",
+          "placements": {
+            "total": 62,
+            "byShift": {
+              "Day": 40
+            },
+            "byStudentType": {
+              "ABSN": 9,
+              "ADN": 37,
+              "BSN": 16
+            },
+            "byProgress": {
+              "prec": 22,
+              "Q4": 6,
+              "Q6": 28,
+              "Q5": 3,
+              "Q3": 3
+            },
+            "byQuarter": {
+              "Fall": 12,
+              "Winter": 18,
+              "Spring": 30,
+              "Summer": 2
+            }
+          }
+        },
+        {
+          "name": "Mc Allenmore",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcAllenmoreRevised.xlsx",
+          "placements": {
+            "total": 32,
+            "byShift": {
+              "Day": 24
+            },
+            "byStudentType": {
+              "ADN": 24,
+              "BSN": 8
+            },
+            "byProgress": {
+              "Q5": 24,
+              "prec": 8
+            },
+            "byQuarter": {
+              "Fall": 8,
+              "Winter": 10,
+              "Spring": 14
+            }
+          }
+        },
+        {
+          "name": "Mc Auburn",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcAuburnRevised.xlsx",
+          "placements": {
+            "total": 91,
+            "byShift": {
+              "Day": 75
+            },
+            "byStudentType": {
+              "ADN": 70,
+              "BSN": 21
+            },
+            "byProgress": {
+              "Q5": 40,
+              "prec": 16,
+              "Q4": 24,
+              "Q3": 9,
+              "S1": 2
+            },
+            "byQuarter": {
+              "Fall": 31,
+              "Winter": 28,
+              "Spring": 28,
+              "Summer": 4
+            }
+          }
+        },
+        {
+          "name": "Mc Capital",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcCapitalRevised.xlsx",
+          "placements": {
+            "total": 86,
+            "byShift": {
+              "Day": 64
+            },
+            "byStudentType": {
+              "BSN": 27,
+              "ADN": 59
+            },
+            "byProgress": {
+              "S1": 16,
+              "Q4": 18,
+              "prec": 22,
+              "Q2": 14,
+              "Q3": 16
+            },
+            "byQuarter": {
+              "Fall": 27,
+              "Winter": 29,
+              "Spring": 27,
+              "Summer": 3
+            }
+          }
+        },
+        {
+          "name": "Mc Covington",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcCovingtonRevised.xlsx",
+          "placements": {
+            "total": 2,
+            "byShift": {},
+            "byStudentType": {
+              "BSN": 2
+            },
+            "byProgress": {
+              "prec": 2
+            },
+            "byQuarter": {
+              "Summer": 2
+            }
+          }
+        },
+        {
+          "name": "Mc Good Samaritan",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcGoodSamaritanRevised.xlsx",
+          "placements": {
+            "total": 369,
+            "byShift": {
+              "Day": 331
+            },
+            "byStudentType": {
+              "ADN": 9,
+              "BSN": 185,
+              "PN": 147,
+              "LPN-BSN": 28
+            },
+            "byProgress": {
+              "Q4": 16,
+              "prec": 38,
+              "S1": 128,
+              "J2": 48,
+              "Q1": 40,
+              "Q2": 48,
+              "Q3 HEET": 17,
+              "Q3": 34
+            },
+            "byQuarter": {
+              "Spring": 93,
+              "Summer": 22,
+              "Fall": 136,
+              "Winter": 118
+            }
+          }
+        },
+        {
+          "name": "Mc Mary Bridge",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcMaryBridgeRevised.xlsx",
+          "placements": {
+            "total": 346,
+            "byShift": {
+              "Day": 296,
+              "Evening": 15
+            },
+            "byStudentType": {
+              "BSN": 195,
+              "ADN": 149,
+              "LPN-BSN": 2
+            },
+            "byProgress": {
+              "prec": 35,
+              "S1": 162,
+              "Q3": 60,
+              "Q5": 66,
+              "Q4": 6,
+              "Q4 HEET": 16,
+              "Q6 HEET": 1
+            },
+            "byQuarter": {
+              "Summer": 25,
+              "Fall": 102,
+              "Winter": 114,
+              "Spring": 105
+            }
+          }
+        },
+        {
+          "name": "Mc O C E D",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcOCEDRevised.xlsx",
+          "placements": {
+            "total": 28,
+            "byShift": {
+              "Day": 15
+            },
+            "byStudentType": {
+              "BSN": 12,
+              "ADN": 16
+            },
+            "byProgress": {
+              "prec": 13,
+              "Q4": 13,
+              "Q6": 2
+            },
+            "byQuarter": {
+              "Fall": 7,
+              "Spring": 12,
+              "Winter": 7,
+              "Summer": 2
+            }
+          }
+        },
+        {
+          "name": "Mc Tacoma",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/mcTacomaRevised.xlsx",
+          "placements": {
+            "total": 195,
+            "byShift": {
+              "Day": 89,
+              "Evening": 54
+            },
+            "byStudentType": {
+              "LPN-BSN": 6,
+              "BSN": 28,
+              "ADN": 147,
+              "PN": 14
+            },
+            "byProgress": {
+              "S1": 4,
+              "prec": 52,
+              "Q3": 62,
+              "Q4": 48,
+              "Q3 HEET": 9,
+              "Q6": 6,
+              "J2": 4,
+              "Q5": 10
+            },
+            "byQuarter": {
+              "Fall": 46,
+              "Winter": 60,
+              "Spring": 67,
+              "Summer": 22
+            }
+          }
+        },
+        {
+          "name": "Prov Centralia",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/provCentraliaRevised.xlsx",
+          "placements": {
+            "total": 264,
+            "byShift": {
+              "Day": 214
+            },
+            "byStudentType": {
+              "ADN": 226,
+              "LPN-RN": 32,
+              "BSN": 5,
+              "LPN-BSN": 1
+            },
+            "byProgress": {
+              "prec": 40,
+              "Q4": 64,
+              "Q5": 64,
+              "Q2": 48,
+              "Q3": 48
+            },
+            "byQuarter": {
+              "Fall": 89,
+              "Winter": 71,
+              "Spring": 83,
+              "Summer": 21
+            }
+          }
+        },
+        {
+          "name": "Prov St Peter",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/provStPeterRevised.xlsx",
+          "placements": {
+            "total": 498,
+            "byShift": {
+              "Day": 396
+            },
+            "byStudentType": {
+              "BSN": 246,
+              "ADN": 218,
+              "LPN-BSN": 34
+            },
+            "byProgress": {
+              "prec": 102,
+              "J2": 79,
+              "Q2": 25,
+              "Q4": 20,
+              "Q3": 30,
+              "Q5": 72,
+              "S1": 154,
+              "Q5 obs": 4,
+              "S1 obs": 8,
+              "Q2 obs": 4
+            },
+            "byQuarter": {
+              "Winter": 199,
+              "Summer": 42,
+              "Fall": 165,
+              "Spring": 92
+            }
+          }
+        },
+        {
+          "name": "Vmfh Franciscan Hospice",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhFranciscanHospiceRevised.xlsx",
+          "placements": {
+            "total": 14,
+            "byShift": {
+              "Day": 14
+            },
+            "byStudentType": {
+              "ADN": 13,
+              "BSN": 1
+            },
+            "byProgress": {
+              "Q5": 13,
+              "Q6 obs": 1
+            },
+            "byQuarter": {
+              "Fall": 3,
+              "Winter": 4,
+              "Spring": 7
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Anthony",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhStAnthonyRevised.xlsx",
+          "placements": {
+            "total": 39,
+            "byShift": {
+              "Day": 24
+            },
+            "byStudentType": {
+              "ADN": 36,
+              "ABSN": 3
+            },
+            "byProgress": {
+              "Q4": 16,
+              "prec": 15,
+              "Q3": 8
+            },
+            "byQuarter": {
+              "Fall": 13,
+              "Spring": 13,
+              "Winter": 13
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Clare",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhStClareRevised.xlsx",
+          "placements": {
+            "total": 58,
+            "byShift": {
+              "Day": 32
+            },
+            "byStudentType": {
+              "ADN": 19,
+              "BSN": 11,
+              "LPN": 24,
+              "ABSN": 3,
+              "LPN-BSN": 1
+            },
+            "byProgress": {
+              "prec": 26,
+              "Q3": 20,
+              "Q4": 12
+            },
+            "byQuarter": {
+              "Fall": 6,
+              "Spring": 20,
+              "Summer": 17,
+              "Winter": 15
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Elizabeth",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhStElizabethRevised.xlsx",
+          "placements": {
+            "total": 38,
+            "byShift": {
+              "Day": 36
+            },
+            "byStudentType": {
+              "LPN": 36,
+              "BSN": 2
+            },
+            "byProgress": {
+              "Q3": 36,
+              "prec": 2
+            },
+            "byQuarter": {
+              "Fall": 36,
+              "Winter": 2
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Francis",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhStFrancisRevised.xlsx",
+          "placements": {
+            "total": 77,
+            "byShift": {
+              "Day": 56
+            },
+            "byStudentType": {
+              "BSN": 16,
+              "ADN": 40,
+              "ABSN": 13,
+              "LPN": 8
+            },
+            "byProgress": {
+              "prec": 21,
+              "Q3": 16,
+              "Q4": 16,
+              "W5": 8,
+              "Q6": 8,
+              "Q1": 8
+            },
+            "byQuarter": {
+              "Fall": 14,
+              "Winter": 29,
+              "Spring": 23,
+              "Summer": 11
+            }
+          }
+        },
+        {
+          "name": "Vmfh St Joseph",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/vmfhStJosephRevised.xlsx",
+          "placements": {
+            "total": 590,
+            "byShift": {
+              "Day": 482
+            },
+            "byStudentType": {
+              "ABSN": 44,
+              "BSN": 225,
+              "ADN": 140,
+              "PN": 89,
+              "LPN-RN": 51,
+              "LPN": 40,
+              "LPN-BSN": 1
+            },
+            "byProgress": {
+              "prec": 108,
+              "Q2": 194,
+              "Q5": 17,
+              "Q3": 44,
+              "Q4": 56,
+              "S1": 169,
+              "Q6": 2
+            },
+            "byQuarter": {
+              "Fall": 138,
+              "Winter": 227,
+              "Spring": 138,
+              "Summer": 87
+            }
+          }
+        },
+        {
+          "name": "Western State",
+          "region": "South",
+          "url": "https://cpnw.blob.core.windows.net/documents/pbiGrids/2024-2025/South/westernStateRevised.xlsx",
+          "placements": {
+            "total": 671,
+            "byShift": {
+              "Day": 629,
+              "Evening": 40
+            },
+            "byStudentType": {
+              "ADN": 102,
+              "BSN": 145,
+              "PN": 322,
+              "LPN": 54,
+              "LPN-RN": 48
+            },
+            "byProgress": {
+              "Q5": 40,
+              "Q3": 37,
+              "Q2": 314,
+              "Q4": 118,
+              "Q7": 32,
+              "J2": 128,
+              "prec": 2
+            },
+            "byQuarter": {
+              "Fall": 128,
+              "Winter": 342,
+              "Summer": 123,
+              "Spring": 78
+            }
+          }
+        }
+      ]
+    }
+  }
+}
