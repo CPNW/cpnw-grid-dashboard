@@ -7,6 +7,7 @@
     "dev": "vite",
     "data:build": "node scripts/build-facility-data.js",
     "build": "vite build",
+    "build:pages": "vite build --outDir docs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

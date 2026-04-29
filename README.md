@@ -17,4 +17,5 @@ The browser app reads `public/data/datasets.json`, which currently contains `202
 ```bash
 npm run lint
 npm run build
+npm run build:pages
 ```
