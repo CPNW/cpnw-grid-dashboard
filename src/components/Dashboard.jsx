@@ -3,15 +3,16 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useCPNWData } from '../hooks/useCPNWData';
 import KPICard from './KPICard';
 import PlacementChart from './PlacementChart';
+import sporesWatermark from '../assets/spores-watermark.png';
 
 const queryClient = new QueryClient();
 
 const REPORT_PAGES = [
-  { id: 'overview', label: 'Regional Overview' },
-  { id: 'regions', label: 'Region Comparison' },
-  { id: 'facilities', label: 'Facility Detail' },
-  { id: 'quarters', label: 'Quarter Planning' },
-  { id: 'table', label: 'Facility Rows' },
+  { id: 'overview', label: 'Overview', kicker: 'Executive view', description: 'Regional capacity, quarterly demand, student mix, and shift coverage.' },
+  { id: 'regions', label: 'Regions', kicker: 'Compare markets', description: 'East, North, and South region placement totals side by side.' },
+  { id: 'facilities', label: 'Facilities', kicker: 'Rank capacity', description: 'Top facility totals and facility-level placement scale.' },
+  { id: 'quarters', label: 'Quarters', kicker: 'Plan rotations', description: 'Quarter starts and program progress for planning conversations.' },
+  { id: 'table', label: 'Rows', kicker: 'Audit detail', description: 'Facility rows for validating totals and source workbook coverage.' },
 ];
 
 function sumValues(values = {}) {
@@ -114,37 +115,56 @@ function DashboardContent() {
   const averagePlacements = filteredFacilities.length ? Math.round(data.total / filteredFacilities.length) : 0;
   const scopeLabel = selectedFacility || (selectedRegion ? `${selectedRegion} Region` : 'All Regions');
   const sourceCount = selectedDataset.sourceCount || totalFacilities;
+  const activePageMeta = REPORT_PAGES.find(page => page.id === activePage) || REPORT_PAGES[0];
 
   return (
     <div className="workspace-grid min-vh-100 text-[var(--ink)]">
       <div className="container-fluid px-0">
         <div className="row g-0 min-vh-100">
           <aside className="report-sidebar col-12 col-lg-3 col-xxl-2 p-3 p-xl-4">
-            <div className="mb-4">
-              <p className="eyebrow mb-1">Clinical Placements Northwest</p>
-              <h1 className="h4 mb-1 fw-bold text-white">Grid Reports</h1>
-              <p className="mb-0 text-white-50">{scopeLabel}</p>
+            <img className="spores-sidebar-mark" src={sporesWatermark} alt="" />
+
+            <div className="brand-lockup mb-4">
+              <div className="brand-icon" aria-hidden="true">
+                <img src={sporesWatermark} alt="" />
+              </div>
+              <div>
+                <p className="eyebrow mb-1">Clinical Placements Northwest</p>
+                <h1 className="h4 mb-1 fw-bold text-white">Grid Reports</h1>
+                <p className="mb-0 text-white-50">{activeAcademicYear} planning dashboard</p>
+              </div>
             </div>
 
-            <section className="nav-card card mb-3">
-              <div className="card-body p-2">
-                <h2 className="h6 text-center fw-bold mb-2">Navigation Menu</h2>
+            <section className="report-nav-panel mb-3">
+              <div className="d-flex align-items-center justify-content-between mb-2">
+                <h2 className="h6 fw-bold mb-0 text-white">Report Pages</h2>
+                <span className="nav-count">{REPORT_PAGES.length}</span>
+              </div>
                 <div className="d-grid gap-2">
-                  {REPORT_PAGES.map(page => (
+                {REPORT_PAGES.map((page, index) => (
                     <button
                       key={page.id}
                       className={`report-nav btn ${activePage === page.id ? 'active' : ''}`}
                       type="button"
                       onClick={() => setActivePage(page.id)}
                     >
-                      {page.label}
+                    <span className="nav-index">{String(index + 1).padStart(2, '0')}</span>
+                    <span>
+                      <span className="nav-label">{page.label}</span>
+                      <span className="nav-kicker">{page.kicker}</span>
+                    </span>
                     </button>
                   ))}
                 </div>
-              </div>
             </section>
 
-            <div className="mb-3">
+            <section className="filter-panel mb-3">
+              <div className="d-flex align-items-center justify-content-between mb-3">
+                <h2 className="h6 fw-bold mb-0 text-white">Report Lens</h2>
+                <span className="scope-chip">{scopeLabel}</span>
+              </div>
+
+              <div className="mb-3">
               <label className="form-label filter-label" htmlFor="academicYearFilter">Academic Year</label>
               <select
                 id="academicYearFilter"
@@ -189,35 +209,45 @@ function DashboardContent() {
               </select>
             </div>
 
-            <button className="btn btn-light fw-bold w-100 mb-3" type="button" onClick={clearFilters}>
+              <button className="btn btn-light fw-bold w-100" type="button" onClick={clearFilters}>
               Reset filters
             </button>
+            </section>
 
-            <p className="status mb-0">
-              {activeAcademicYear}: {filteredFacilities.length} displayed facilities from {sourceCount} source workbooks.
-            </p>
+            <div className="sidebar-stat-grid">
+              <div>
+                <span>{filteredFacilities.length}</span>
+                <p>Displayed</p>
+              </div>
+              <div>
+                <span>{sourceCount}</span>
+                <p>Sources</p>
+              </div>
+            </div>
           </aside>
 
-          <main className="col-12 col-lg-9 col-xxl-10 p-3 p-md-4">
-            <section className="d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-start mb-3">
+          <main className="report-workspace col-12 col-lg-9 col-xxl-10 p-3 p-md-4">
+            <section className="report-hero surface-panel rounded-4 p-4 mb-3">
+              <img className="spores-hero-mark" src={sporesWatermark} alt="" />
+              <div className="d-flex flex-column flex-xl-row justify-content-between gap-3 align-items-xl-start">
               <div>
-                <p className="eyebrow mb-1 text-[var(--teal)]">{activeAcademicYear}</p>
-                <h2 className="display-6 fw-bold mb-1 panel-title">
-                  {REPORT_PAGES.find(page => page.id === activePage)?.label}
-                </h2>
-                <p className="selected-facility-label mb-0">{scopeLabel}</p>
+                  <p className="eyebrow mb-1 text-[var(--teal)]">{activeAcademicYear}</p>
+                  <h2 className="display-6 fw-bold mb-2 panel-title">{activePageMeta.label}</h2>
+                  <p className="hero-copy mb-0">{activePageMeta.description}</p>
+                  <p className="selected-facility-label mb-0 mt-2">{scopeLabel}</p>
               </div>
-              <div className="view-tabs btn-group p-1" role="tablist" aria-label="Dashboard pages">
-                {REPORT_PAGES.slice(0, 3).map(page => (
+                <div className="page-chip-strip" role="tablist" aria-label="Dashboard pages">
+                  {REPORT_PAGES.map(page => (
                   <button
                     key={page.id}
-                    className={`btn ${activePage === page.id ? 'active' : ''}`}
+                      className={`page-chip ${activePage === page.id ? 'active' : ''}`}
                     type="button"
                     onClick={() => setActivePage(page.id)}
                   >
-                    {page.label.replace('Regional ', '').replace(' Comparison', '')}
+                      {page.label}
                   </button>
                 ))}
+                </div>
               </div>
             </section>
 
