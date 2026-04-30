@@ -19,10 +19,19 @@ function sumValues(values = {}) {
   return Object.values(values).reduce((sum, value) => sum + value, 0);
 }
 
-function getQuarterTotal(data, quarter) {
-  return Object.entries(data.byQuarter)
-    .filter(([key]) => key.trim() === quarter)
-    .reduce((sum, [, value]) => sum + value, 0);
+function getTopEntry(values = {}) {
+  return Object.entries(values)
+    .filter(([, value]) => value > 0)
+    .sort((a, b) => b[1] - a[1])[0] || ['None', 0];
+}
+
+function getMedian(values) {
+  if (!values.length) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+
+  if (sorted.length % 2) return sorted[middle];
+  return Math.round((sorted[middle - 1] + sorted[middle]) / 2);
 }
 
 function groupByRegion(facilities) {
@@ -116,6 +125,53 @@ function DashboardContent() {
   const scopeLabel = selectedFacility || (selectedRegion ? `${selectedRegion} Region` : 'All Regions');
   const sourceCount = selectedDataset.sourceCount || totalFacilities;
   const activePageMeta = REPORT_PAGES.find(page => page.id === activePage) || REPORT_PAGES[0];
+  const topFacility = topFacilities[0];
+  const lowestRegion = regionSummaries[regionSummaries.length - 1];
+  const leadingRegion = regionSummaries[0];
+  const [busiestQuarter, busiestQuarterValue] = getTopEntry(data.byQuarter);
+  const [largestStudentType, largestStudentTypeValue] = getTopEntry(data.byStudentType);
+  const [largestShiftType, largestShiftTypeValue] = getTopEntry(data.byShift);
+  const quarterStarts = sumValues(data.byQuarter);
+  const facilityMedian = getMedian(filteredFacilities.map(facility => facility.placements.total));
+  const regionSpread = leadingRegion && lowestRegion ? leadingRegion.placements - lowestRegion.placements : 0;
+  const reportKpis = {
+    overview: [
+      { title: 'Facilities', value: filteredFacilities.length, subtitle: `${totalFacilities} in selected year`, color: 'blue' },
+      { title: 'Placements', value: data.total, subtitle: scopeLabel, color: 'green' },
+      { title: 'Avg. Per Facility', value: averagePlacements, subtitle: 'Placement density', color: 'indigo' },
+      { title: 'Top Facility', value: topFacility?.placements.total || 0, subtitle: topFacility?.name || 'No facility selected', color: 'purple' },
+      { title: 'Source Files', value: sourceCount, subtitle: `${activeAcademicYear} workbooks`, color: 'orange' },
+    ],
+    regions: [
+      { title: 'Regions', value: regionSummaries.length, subtitle: 'Reporting markets', color: 'blue' },
+      { title: 'Leading Region', value: leadingRegion?.name || 'None', subtitle: `${(leadingRegion?.placements || 0).toLocaleString()} placements`, color: 'green' },
+      { title: 'Region Spread', value: regionSpread, subtitle: 'High minus low placements', color: 'purple' },
+      { title: 'Facilities', value: totalFacilities, subtitle: 'Across all regions', color: 'indigo' },
+      { title: 'Selected Scope', value: filteredFacilities.length, subtitle: scopeLabel, color: 'orange' },
+    ],
+    facilities: [
+      { title: 'Facilities', value: filteredFacilities.length, subtitle: scopeLabel, color: 'blue' },
+      { title: 'Top Facility', value: topFacility?.placements.total || 0, subtitle: topFacility?.name || 'No facility selected', color: 'green' },
+      { title: 'Median Facility', value: facilityMedian, subtitle: 'Middle placement total', color: 'indigo' },
+      { title: 'Average', value: averagePlacements, subtitle: 'Per facility', color: 'purple' },
+      { title: 'Source Files', value: sourceCount, subtitle: `${activeAcademicYear} workbooks`, color: 'orange' },
+    ],
+    quarters: [
+      { title: 'Quarter Starts', value: quarterStarts, subtitle: 'All selected quarters', color: 'blue' },
+      { title: 'Busiest Quarter', value: busiestQuarter, subtitle: `${busiestQuarterValue.toLocaleString()} starts`, color: 'green' },
+      { title: 'Program Labels', value: Object.keys(data.byProgress).length, subtitle: 'Progress categories', color: 'indigo' },
+      { title: 'Student Mix', value: Object.keys(data.byStudentType).length, subtitle: `${largestStudentType}: ${largestStudentTypeValue.toLocaleString()}`, color: 'purple' },
+      { title: 'Shift Models', value: Object.keys(data.byShift).length, subtitle: `${largestShiftType}: ${largestShiftTypeValue.toLocaleString()}`, color: 'orange' },
+    ],
+    table: [
+      { title: 'Facility Rows', value: filteredFacilities.length, subtitle: scopeLabel, color: 'blue' },
+      { title: 'Placements', value: data.total, subtitle: 'Filtered total', color: 'green' },
+      { title: 'Academic Year', value: activeAcademicYear, subtitle: 'Selected source year', color: 'indigo' },
+      { title: 'Source Files', value: sourceCount, subtitle: 'Generated dataset', color: 'purple' },
+      { title: 'Quarter Starts', value: quarterStarts, subtitle: 'Filtered rows', color: 'orange' },
+    ],
+  };
+  const visibleKpis = reportKpis[activePage] || reportKpis.overview;
 
   return (
     <div className="workspace-grid min-vh-100 text-[var(--ink)]">
@@ -252,21 +308,16 @@ function DashboardContent() {
             </section>
 
             <section className="row g-3 mb-3" aria-label="Summary metrics">
-              <div className="col-6 col-xl">
-                <KPICard title="Facilities" value={filteredFacilities.length} subtitle={`${totalFacilities} in year`} color="blue" />
-              </div>
-              <div className="col-6 col-xl">
-                <KPICard title="Placements" value={data.total} subtitle={scopeLabel} color="green" />
-              </div>
-              <div className="col-6 col-xl">
-                <KPICard title="Average" value={averagePlacements} subtitle="Per facility" color="indigo" />
-              </div>
-              <div className="col-6 col-xl">
-                <KPICard title="Winter" value={getQuarterTotal(data, 'Winter')} subtitle="Quarter capacity" color="purple" />
-              </div>
-              <div className="col-12 col-xl">
-                <KPICard title="Spring" value={getQuarterTotal(data, 'Spring')} subtitle="Quarter capacity" color="orange" />
-              </div>
+              {visibleKpis.map(kpi => (
+                <div className="col-6 col-xl" key={`${activePage}-${kpi.title}`}>
+                  <KPICard
+                    title={kpi.title}
+                    value={kpi.value}
+                    subtitle={kpi.subtitle}
+                    color={kpi.color}
+                  />
+                </div>
+              ))}
             </section>
 
             {activePage === 'overview' && (
