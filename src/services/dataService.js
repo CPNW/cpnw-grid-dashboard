@@ -71,6 +71,16 @@ function normalizeEducationalFacility(name) {
   return normalizedName;
 }
 
+function normalizeStudentType(type) {
+  const normalizedType = String(type || '').trim().replace(/\s+/g, ' ');
+
+  if (/^and$/i.test(normalizedType)) {
+    return 'ADN';
+  }
+
+  return normalizedType;
+}
+
 /**
  * Extract region from URL
  */
@@ -153,15 +163,16 @@ export function parseFacilityData(rawData, url) {
   };
 
   const addRowToBucket = (bucket, row, rowPlacements, placementsPerRotation) => {
+    const studentType = normalizeStudentType(row[studentTypeCol]);
+
     bucket.total += rowPlacements;
     addCount(bucket.byShift, row[shiftCol], rowPlacements);
-    addCount(bucket.byStudentType, row[studentTypeCol], rowPlacements);
-    addCount(bucket.byProgramType, row[studentTypeCol], rowPlacements);
+    addCount(bucket.byStudentType, studentType, rowPlacements);
+    addCount(bucket.byProgramType, studentType, rowPlacements);
     addCount(bucket.byProgress, row[progressCol], rowPlacements);
     addCount(bucket.byHealthcareFacility, row[healthcareFacilityCol] || facilityName, rowPlacements);
     addCount(bucket.byEducationalFacility, normalizeEducationalFacility(row[nursingProgramCol]), rowPlacements);
 
-    const studentType = String(row[studentTypeCol] || '').trim();
     if (studentType) {
       bucket.byStudentTypeQuarter[studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
       bucket.byStudentTypeQuarter[studentType].total += rowPlacements;

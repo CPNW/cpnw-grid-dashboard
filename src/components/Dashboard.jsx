@@ -101,12 +101,10 @@ function DashboardContent() {
   const {
     academicYears,
     selectedAcademicYear: activeAcademicYear,
-    selectedDataset,
     facilities,
     isLoading,
     error,
     regions,
-    totalFacilities,
   } = useCPNWData(selectedAcademicYear);
 
   const reportGroups = useMemo(() => makeReportPages(regions), [regions]);
@@ -116,7 +114,8 @@ function DashboardContent() {
 
   const scopedFacilities = facilities.filter(facility => !activeScope.region || facility.region === activeScope.region);
   const data = aggregateFacilities(scopedFacilities, activeType.id);
-  const sourceCount = selectedDataset.sourceCount || totalFacilities;
+  const educationFacilityCount = Object.keys(data.byEducationalFacility).length;
+  const healthcareFacilityCount = Object.keys(data.byHealthcareFacility).length;
   const visibleKpis = [
     { title: 'Total Placements', value: data.total, subtitle: activeScope.label, color: 'blue' },
     { title: 'Fall Placements', value: data.byQuarter.Fall || 0, subtitle: activeType.label, color: 'green' },
@@ -213,17 +212,6 @@ function DashboardContent() {
                 ))}
               </div>
             </section>
-
-            <div className="sidebar-stat-grid">
-              <div>
-                <span>{scopedFacilities.length}</span>
-                <p>Facilities</p>
-              </div>
-              <div>
-                <span>{sourceCount}</span>
-                <p>Sources</p>
-              </div>
-            </div>
           </aside>
 
           <main className="report-workspace col-12 col-lg-9 col-xxl-10 p-3 p-md-4">
@@ -234,7 +222,9 @@ function DashboardContent() {
                   <p className="eyebrow mb-1 text-[var(--teal)]">{activeAcademicYear}</p>
                   <h2 className="display-6 fw-bold mb-2 panel-title">{activePage.label}</h2>
                   <p className="hero-copy mb-0">{activeType.description}</p>
-                  <p className="selected-facility-label mb-0 mt-2">{scopedFacilities.length} facilities | {sourceCount} source workbooks</p>
+                  <p className="selected-facility-label mb-0 mt-2">
+                    {educationFacilityCount} education facilities | {healthcareFacilityCount} healthcare facilities
+                  </p>
                 </div>
                 <div className="page-chip-strip" role="tablist" aria-label="Report type pages">
                   {REPORT_TYPES.map(type => (
@@ -282,6 +272,7 @@ function DashboardContent() {
                   title="Total Placements by Healthcare Facility"
                   data={data.byHealthcareFacility}
                   horizontal
+                  showValues
                 />
               </div>
               <div className="col-12 col-xl-6">
@@ -289,6 +280,7 @@ function DashboardContent() {
                   title="Total Placements by Educational Facility"
                   data={data.byEducationalFacility}
                   horizontal
+                  showValues
                 />
               </div>
             </section>

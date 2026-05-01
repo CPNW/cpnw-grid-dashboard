@@ -254,35 +254,6 @@ body.focus-open {
   line-height: 1.45;
 }
 
-.sidebar-stat-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.sidebar-stat-grid > div {
-  padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.sidebar-stat-grid span {
-  display: block;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 850;
-  line-height: 1;
-}
-
-.sidebar-stat-grid p {
-  margin: 5px 0 0;
-  color: rgba(255, 255, 255, 0.66);
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
 .selected-facility-label {
   color: var(--chart-text);
   font-size: 17px;
@@ -300,8 +271,9 @@ body.focus-open {
 
 .spores-hero-mark {
   position: absolute;
-  right: -38px;
-  top: -56px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: min(430px, 46vw);
   opacity: 0.13;
   pointer-events: none;
@@ -515,8 +487,6 @@ body.focus-open {
 
   .spores-hero-mark {
     width: 280px;
-    right: -92px;
-    top: -22px;
   }
 
   .chart-panel-head,

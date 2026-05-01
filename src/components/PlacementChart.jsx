@@ -1,10 +1,10 @@
 // filepath: src/components/PlacementChart.jsx
 import { useEffect, useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie, Legend, LabelList } from 'recharts';
 
 const COLORS = ['#1c78bb', '#0d7a75', '#6d62b5', '#c47d2f', '#bf4d5a', '#4f7d95', '#8b5c7e', '#455c94'];
 
-export default function PlacementChart({ data, title, dataKey = 'value', nameKey = 'name', horizontal = false, chartType = 'bar', autoHorizontal = true }) {
+export default function PlacementChart({ data, title, dataKey = 'value', nameKey = 'name', horizontal = false, chartType = 'bar', autoHorizontal = true, showValues = false }) {
   const [isFocused, setIsFocused] = useState(false);
   const chartData = Object.entries(data || {})
     .map(([key, val]) => ({
@@ -45,6 +45,7 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
   const chartHeight = shouldUseHorizontal ? Math.max(260, chartData.length * 42) : 260;
   const focusHeight = shouldUseHorizontal ? Math.max(520, chartData.length * 48) : 520;
   const total = chartData.reduce((sum, item) => sum + item[dataKey], 0);
+  const formatValueLabel = (value) => value.toLocaleString();
 
   const chart = (height, focusMode = false) => (
     <div className="min-w-0" style={{ height }}>
@@ -74,7 +75,7 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
           <BarChart
             data={chartData}
             layout="vertical"
-            margin={{ top: 8, right: focusMode ? 42 : 24, left: focusMode ? 150 : 84, bottom: 8 }}
+            margin={{ top: 8, right: showValues ? (focusMode ? 72 : 58) : (focusMode ? 42 : 24), left: focusMode ? 150 : 84, bottom: 8 }}
           >
             <CartesianGrid stroke="#d9e1ea" strokeDasharray="3 3" horizontal={false} />
             <XAxis type="number" tick={{ fill: '#53606d', fontSize: focusMode ? 14 : 12 }} />
@@ -84,6 +85,16 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
               formatter={(value) => [value.toLocaleString(), 'Count']}
             />
             <Bar dataKey={dataKey} radius={[0, 4, 4, 0]}>
+              {showValues && (
+                <LabelList
+                  dataKey={dataKey}
+                  position="right"
+                  formatter={formatValueLabel}
+                  fill="#35404b"
+                  fontSize={focusMode ? 14 : 12}
+                  fontWeight={800}
+                />
+              )}
               {chartData.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
@@ -108,6 +119,16 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
               formatter={(value) => [value.toLocaleString(), 'Count']}
             />
             <Bar dataKey={dataKey} radius={[4, 4, 0, 0]}>
+              {showValues && (
+                <LabelList
+                  dataKey={dataKey}
+                  position="top"
+                  formatter={formatValueLabel}
+                  fill="#35404b"
+                  fontSize={focusMode ? 14 : 12}
+                  fontWeight={800}
+                />
+              )}
               {chartData.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}

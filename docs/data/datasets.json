@@ -3,11 +3,11 @@
     "2023-2024",
     "2024-2025"
   ],
-  "generatedAt": "2026-05-01T03:57:48.759Z",
+  "generatedAt": "2026-05-01T14:14:12.846Z",
   "datasets": {
     "2023-2024": {
       "academicYear": "2023-2024",
-      "generatedAt": "2026-05-01T03:57:44.973Z",
+      "generatedAt": "2026-05-01T14:14:08.678Z",
       "sourceCount": 46,
       "facilityCount": 46,
       "failures": [],
@@ -8634,11 +8634,10 @@
               "Day": 87
             },
             "byStudentType": {
-              "ADN": 109,
+              "ADN": 115,
               "LPN-RN": 16,
               "BSN": 6,
-              "LPN-BSN": 5,
-              "AND": 6
+              "LPN-BSN": 5
             },
             "byProgress": {
               "prec": 55,
@@ -8664,16 +8663,15 @@
               "SMU": 11
             },
             "byProgramType": {
-              "ADN": 109,
+              "ADN": 115,
               "LPN-RN": 16,
               "BSN": 6,
-              "LPN-BSN": 5,
-              "AND": 6
+              "LPN-BSN": 5
             },
             "byStudentTypeQuarter": {
               "ADN": {
-                "total": 109,
-                "Fall": 22,
+                "total": 115,
+                "Fall": 28,
                 "Winter": 29,
                 "Spring": 36,
                 "Summer": 22
@@ -8698,13 +8696,6 @@
                 "Winter": 5,
                 "Spring": 0,
                 "Summer": 0
-              },
-              "AND": {
-                "total": 6,
-                "Fall": 6,
-                "Winter": 0,
-                "Spring": 0,
-                "Summer": 0
               }
             }
           },
@@ -8715,11 +8706,10 @@
                 "Day": 87
               },
               "byStudentType": {
-                "ADN": 109,
+                "ADN": 115,
                 "LPN-RN": 16,
                 "BSN": 6,
-                "LPN-BSN": 5,
-                "AND": 6
+                "LPN-BSN": 5
               },
               "byProgress": {
                 "prec": 55,
@@ -8745,16 +8735,15 @@
                 "SMU": 11
               },
               "byProgramType": {
-                "ADN": 109,
+                "ADN": 115,
                 "LPN-RN": 16,
                 "BSN": 6,
-                "LPN-BSN": 5,
-                "AND": 6
+                "LPN-BSN": 5
               },
               "byStudentTypeQuarter": {
                 "ADN": {
-                  "total": 109,
-                  "Fall": 22,
+                  "total": 115,
+                  "Fall": 28,
                   "Winter": 29,
                   "Spring": 36,
                   "Summer": 22
@@ -8777,13 +8766,6 @@
                   "total": 5,
                   "Fall": 0,
                   "Winter": 5,
-                  "Spring": 0,
-                  "Summer": 0
-                },
-                "AND": {
-                  "total": 6,
-                  "Fall": 6,
-                  "Winter": 0,
                   "Spring": 0,
                   "Summer": 0
                 }
@@ -8850,8 +8832,7 @@
               },
               "byStudentType": {
                 "LPN-RN": 16,
-                "ADN": 65,
-                "AND": 6
+                "ADN": 71
               },
               "byProgress": {
                 "Q5": 46,
@@ -8876,8 +8857,7 @@
               },
               "byProgramType": {
                 "LPN-RN": 16,
-                "ADN": 65,
-                "AND": 6
+                "ADN": 71
               },
               "byStudentTypeQuarter": {
                 "LPN-RN": {
@@ -8888,18 +8868,11 @@
                   "Summer": 0
                 },
                 "ADN": {
-                  "total": 65,
-                  "Fall": 17,
+                  "total": 71,
+                  "Fall": 23,
                   "Winter": 24,
                   "Spring": 12,
                   "Summer": 12
-                },
-                "AND": {
-                  "total": 6,
-                  "Fall": 6,
-                  "Winter": 0,
-                  "Spring": 0,
-                  "Summer": 0
                 }
               }
             }
@@ -9443,10 +9416,9 @@
             },
             "byStudentType": {
               "BSN": 13,
-              "ADN": 32,
+              "ADN": 34,
               "LPN-BSN": 2,
               "PN": 43,
-              "AND": 2,
               "ABSN": 1
             },
             "byProgress": {
@@ -9474,10 +9446,9 @@
             },
             "byProgramType": {
               "BSN": 13,
-              "ADN": 32,
+              "ADN": 34,
               "LPN-BSN": 2,
               "PN": 43,
-              "AND": 2,
               "ABSN": 1
             },
             "byStudentTypeQuarter": {
@@ -9489,8 +9460,8 @@
                 "Summer": 0
               },
               "ADN": {
-                "total": 32,
-                "Fall": 6,
+                "total": 34,
+                "Fall": 8,
                 "Winter": 12,
                 "Spring": 8,
                 "Summer": 6
@@ -9507,13 +9478,6 @@
                 "Fall": 18,
                 "Winter": 9,
                 "Spring": 16,
-                "Summer": 0
-              },
-              "AND": {
-                "total": 2,
-                "Fall": 2,
-                "Winter": 0,
-                "Spring": 0,
                 "Summer": 0
               },
               "ABSN": {
@@ -9533,10 +9497,9 @@
               },
               "byStudentType": {
                 "BSN": 13,
-                "ADN": 32,
+                "ADN": 34,
                 "LPN-BSN": 2,
                 "PN": 43,
-                "AND": 2,
                 "ABSN": 1
               },
               "byProgress": {
@@ -9564,10 +9527,9 @@
               },
               "byProgramType": {
                 "BSN": 13,
-                "ADN": 32,
+                "ADN": 34,
                 "LPN-BSN": 2,
                 "PN": 43,
-                "AND": 2,
                 "ABSN": 1
               },
               "byStudentTypeQuarter": {
@@ -9579,8 +9541,8 @@
                   "Summer": 0
                 },
                 "ADN": {
-                  "total": 32,
-                  "Fall": 6,
+                  "total": 34,
+                  "Fall": 8,
                   "Winter": 12,
                   "Spring": 8,
                   "Summer": 6
@@ -9597,13 +9559,6 @@
                   "Fall": 18,
                   "Winter": 9,
                   "Spring": 16,
-                  "Summer": 0
-                },
-                "AND": {
-                  "total": 2,
-                  "Fall": 2,
-                  "Winter": 0,
-                  "Spring": 0,
                   "Summer": 0
                 },
                 "ABSN": {
@@ -9695,9 +9650,8 @@
                 "Day": 66
               },
               "byStudentType": {
-                "ADN": 22,
-                "PN": 42,
-                "AND": 2
+                "ADN": 24,
+                "PN": 42
               },
               "byProgress": {
                 "Q4": 8,
@@ -9719,14 +9673,13 @@
                 "BTC": 42
               },
               "byProgramType": {
-                "ADN": 22,
-                "PN": 42,
-                "AND": 2
+                "ADN": 24,
+                "PN": 42
               },
               "byStudentTypeQuarter": {
                 "ADN": {
-                  "total": 22,
-                  "Fall": 6,
+                  "total": 24,
+                  "Fall": 8,
                   "Winter": 8,
                   "Spring": 8,
                   "Summer": 0
@@ -9736,13 +9689,6 @@
                   "Fall": 18,
                   "Winter": 8,
                   "Spring": 16,
-                  "Summer": 0
-                },
-                "AND": {
-                  "total": 2,
-                  "Fall": 2,
-                  "Winter": 0,
-                  "Spring": 0,
                   "Summer": 0
                 }
               }
@@ -11113,7 +11059,7 @@
     },
     "2024-2025": {
       "academicYear": "2024-2025",
-      "generatedAt": "2026-05-01T03:57:48.759Z",
+      "generatedAt": "2026-05-01T14:14:12.846Z",
       "sourceCount": 46,
       "facilityCount": 46,
       "failures": [],
@@ -14970,12 +14916,11 @@
               "Day": 405
             },
             "byStudentType": {
-              "ADN": 178,
+              "ADN": 186,
               "LPN": 6,
               "PN": 96,
               "BSN": 113,
               "ABSN": 2,
-              "AND": 8,
               "LPN-RN": 2
             },
             "byProgress": {
@@ -15006,20 +14951,19 @@
               "Seattle Central North": 24
             },
             "byProgramType": {
-              "ADN": 178,
+              "ADN": 186,
               "LPN": 6,
               "PN": 96,
               "BSN": 113,
               "ABSN": 2,
-              "AND": 8,
               "LPN-RN": 2
             },
             "byStudentTypeQuarter": {
               "ADN": {
-                "total": 178,
+                "total": 186,
                 "Fall": 16,
                 "Winter": 44,
-                "Spring": 102,
+                "Spring": 110,
                 "Summer": 16
               },
               "LPN": {
@@ -15050,13 +14994,6 @@
                 "Spring": 1,
                 "Summer": 0
               },
-              "AND": {
-                "total": 8,
-                "Fall": 0,
-                "Winter": 0,
-                "Spring": 8,
-                "Summer": 0
-              },
               "LPN-RN": {
                 "total": 2,
                 "Fall": 2,
@@ -15073,12 +15010,11 @@
                 "Day": 405
               },
               "byStudentType": {
-                "ADN": 178,
+                "ADN": 186,
                 "LPN": 6,
                 "PN": 96,
                 "BSN": 113,
                 "ABSN": 2,
-                "AND": 8,
                 "LPN-RN": 2
               },
               "byProgress": {
@@ -15109,20 +15045,19 @@
                 "Seattle Central North": 24
               },
               "byProgramType": {
-                "ADN": 178,
+                "ADN": 186,
                 "LPN": 6,
                 "PN": 96,
                 "BSN": 113,
                 "ABSN": 2,
-                "AND": 8,
                 "LPN-RN": 2
               },
               "byStudentTypeQuarter": {
                 "ADN": {
-                  "total": 178,
+                  "total": 186,
                   "Fall": 16,
                   "Winter": 44,
-                  "Spring": 102,
+                  "Spring": 110,
                   "Summer": 16
                 },
                 "LPN": {
@@ -15151,13 +15086,6 @@
                   "Fall": 0,
                   "Winter": 1,
                   "Spring": 1,
-                  "Summer": 0
-                },
-                "AND": {
-                  "total": 8,
-                  "Fall": 0,
-                  "Winter": 0,
-                  "Spring": 8,
                   "Summer": 0
                 },
                 "LPN-RN": {
@@ -15186,12 +15114,11 @@
                 "Day": 405
               },
               "byStudentType": {
-                "ADN": 178,
+                "ADN": 186,
                 "LPN": 6,
                 "PN": 96,
                 "BSN": 113,
                 "ABSN": 2,
-                "AND": 8,
                 "LPN-RN": 2
               },
               "byProgress": {
@@ -15222,20 +15149,19 @@
                 "Seattle Central North": 24
               },
               "byProgramType": {
-                "ADN": 178,
+                "ADN": 186,
                 "LPN": 6,
                 "PN": 96,
                 "BSN": 113,
                 "ABSN": 2,
-                "AND": 8,
                 "LPN-RN": 2
               },
               "byStudentTypeQuarter": {
                 "ADN": {
-                  "total": 178,
+                  "total": 186,
                   "Fall": 16,
                   "Winter": 44,
-                  "Spring": 102,
+                  "Spring": 110,
                   "Summer": 16
                 },
                 "LPN": {
@@ -15264,13 +15190,6 @@
                   "Fall": 0,
                   "Winter": 1,
                   "Spring": 1,
-                  "Summer": 0
-                },
-                "AND": {
-                  "total": 8,
-                  "Fall": 0,
-                  "Winter": 0,
-                  "Spring": 8,
                   "Summer": 0
                 },
                 "LPN-RN": {
