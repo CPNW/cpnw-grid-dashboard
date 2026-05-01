@@ -1,10 +1,10 @@
 // filepath: src/components/PlacementChart.jsx
 import { useEffect, useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie, Legend } from 'recharts';
 
 const COLORS = ['#1c78bb', '#0d7a75', '#6d62b5', '#c47d2f', '#bf4d5a', '#4f7d95', '#8b5c7e', '#455c94'];
 
-export default function PlacementChart({ data, title, dataKey = 'value', nameKey = 'name', horizontal = false }) {
+export default function PlacementChart({ data, title, dataKey = 'value', nameKey = 'name', horizontal = false, chartType = 'bar', autoHorizontal = true }) {
   const [isFocused, setIsFocused] = useState(false);
   const chartData = Object.entries(data || {})
     .map(([key, val]) => ({
@@ -41,14 +41,36 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
     );
   }
 
-  const shouldUseHorizontal = horizontal || chartData.some(item => item[nameKey].length > 14);
+  const shouldUseHorizontal = horizontal || (autoHorizontal && chartData.some(item => item[nameKey].length > 14));
   const chartHeight = shouldUseHorizontal ? Math.max(260, chartData.length * 42) : 260;
   const focusHeight = shouldUseHorizontal ? Math.max(520, chartData.length * 48) : 520;
+  const total = chartData.reduce((sum, item) => sum + item[dataKey], 0);
 
   const chart = (height, focusMode = false) => (
     <div className="min-w-0" style={{ height }}>
       <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
-        {shouldUseHorizontal ? (
+        {chartType === 'pie' ? (
+          <PieChart>
+            <Tooltip
+              contentStyle={{ background: '#ffffff', borderRadius: '8px', border: '1px solid #d9e1ea', color: '#18222f' }}
+              formatter={(value) => [`${value.toLocaleString()} (${total ? Math.round((value / total) * 100) : 0}%)`, 'Count']}
+            />
+            <Legend verticalAlign="bottom" height={focusMode ? 48 : 36} />
+            <Pie
+              data={chartData}
+              dataKey={dataKey}
+              nameKey={nameKey}
+              innerRadius={focusMode ? 96 : 56}
+              outerRadius={focusMode ? 170 : 98}
+              paddingAngle={2}
+              label={({ name, value }) => `${name}: ${value.toLocaleString()} (${total ? Math.round((value / total) * 100) : 0}%)`}
+            >
+              {chartData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+              ))}
+            </Pie>
+          </PieChart>
+        ) : shouldUseHorizontal ? (
           <BarChart
             data={chartData}
             layout="vertical"

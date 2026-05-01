@@ -149,8 +149,22 @@ body.focus-open {
 }
 
 .report-nav-panel {
-  max-height: 430px;
+  max-height: calc(100vh - 260px);
   overflow-y: auto;
+}
+
+.report-nav-groups {
+  display: grid;
+  gap: 18px;
+}
+
+.report-nav-heading {
+  margin: 0 0 8px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .nav-count,
@@ -337,7 +351,12 @@ body.focus-open {
   --bs-table-bg: transparent;
   --bs-table-color: var(--ink);
   --bs-table-hover-bg: rgba(255, 255, 255, 0.45);
-  min-width: 720px;
+  min-width: 780px;
+}
+
+.report-table-scroll {
+  max-height: 440px;
+  overflow: auto;
 }
 
 .report-table th {
@@ -355,8 +374,28 @@ body.focus-open {
 }
 
 .report-table .student-type-col {
-  min-width: 180px;
-  padding-left: 2rem;
+  min-width: 220px;
+}
+
+.shift-breakdown {
+  display: grid;
+  gap: 18px;
+}
+
+.shift-row {
+  display: grid;
+  gap: 8px;
+}
+
+.shift-progress {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(28, 120, 187, 0.12);
+}
+
+.shift-progress .progress-bar {
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), var(--teal));
 }
 
 .chart-panel-head {

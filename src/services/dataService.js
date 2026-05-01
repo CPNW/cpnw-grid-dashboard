@@ -41,6 +41,36 @@ function formatFacilityName(name) {
     .trim();
 }
 
+function normalizeEducationalFacility(name) {
+  const normalizedName = String(name || '').trim().replace(/\s+/g, ' ');
+
+  if (/^su$/i.test(normalizedName)) {
+    return 'Seattle University';
+  }
+
+  if (/^seattle\s+central(\s+college)?$/i.test(normalizedName)) {
+    return 'Seattle Central';
+  }
+
+  if (/^seattle\s+(central|colleges?)\s*-\s*n$/i.test(normalizedName)) {
+    return 'Seattle Central North';
+  }
+
+  if (/^seattle\s+(central|colleges?)\s*-\s*s$/i.test(normalizedName)) {
+    return 'Seattle Central South';
+  }
+
+  if (/^sc\s*-\s*south$/i.test(normalizedName)) {
+    return 'Seattle Central South';
+  }
+
+  if (/^seattle\s+(central|colleges?)\s*-\s*c$/i.test(normalizedName)) {
+    return 'Seattle Central';
+  }
+
+  return normalizedName;
+}
+
 /**
  * Extract region from URL
  */
@@ -91,6 +121,10 @@ export function parseFacilityData(rawData, url) {
   const shiftCol = findColumn('shift type');
   const studentTypeCol = findColumn('type of students');
   const progressCol = findColumn('progress in program');
+  const nursingProgramCol = findColumn('nursing program');
+  const healthcareFacilityCol = findColumn('healthcare facility');
+  const preceptorHoursCol = findColumn('prec. hours', 'preceptor hours');
+  const totalPreceptorHoursCol = findColumn('total prec hours', 'total preceptor hours');
   const totalPlacementsCol = findColumn('total placements');
   const quarterCols = [
     ['Fall', findColumn('# of fall start dates')],
@@ -99,43 +133,74 @@ export function parseFacilityData(rawData, url) {
     ['Summer', findColumn('# of summer start dates')],
   ];
   
-  // Aggregate data
-  const placements = {
+  const createPlacementBucket = () => ({
     total: 0,
     byShift: {},
     byStudentType: {},
     byProgress: {},
-    byQuarter: {}
+    byQuarter: {},
+    byHealthcareFacility: {},
+    byEducationalFacility: {},
+    byProgramType: {},
+    byStudentTypeQuarter: {},
+  });
+
+  const placements = createPlacementBucket();
+  const segments = {
+    inclusive: placements,
+    preceptor: createPlacementBucket(),
+    nonPreceptor: createPlacementBucket(),
+  };
+
+  const addRowToBucket = (bucket, row, rowPlacements, placementsPerRotation) => {
+    bucket.total += rowPlacements;
+    addCount(bucket.byShift, row[shiftCol], rowPlacements);
+    addCount(bucket.byStudentType, row[studentTypeCol], rowPlacements);
+    addCount(bucket.byProgramType, row[studentTypeCol], rowPlacements);
+    addCount(bucket.byProgress, row[progressCol], rowPlacements);
+    addCount(bucket.byHealthcareFacility, row[healthcareFacilityCol] || facilityName, rowPlacements);
+    addCount(bucket.byEducationalFacility, normalizeEducationalFacility(row[nursingProgramCol]), rowPlacements);
+
+    const studentType = String(row[studentTypeCol] || '').trim();
+    if (studentType) {
+      bucket.byStudentTypeQuarter[studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
+      bucket.byStudentTypeQuarter[studentType].total += rowPlacements;
+    }
+
+    quarterCols.forEach(([quarter, col]) => {
+      if (col >= 0) {
+        const quarterTotal = toCount(row[col]) * placementsPerRotation;
+        addCount(bucket.byQuarter, quarter, quarterTotal);
+        if (studentType) {
+          bucket.byStudentTypeQuarter[studentType][quarter] += quarterTotal;
+        }
+      }
+    });
   };
   
   rows.forEach(row => {
     const rowPlacements = toCount(row[totalPlacementsCol]) || 1;
     const placementsPerRotation = toCount(row[placementsPerRotationCol]) || rowPlacements;
+    const preceptorHours = toCount(row[preceptorHoursCol]) + toCount(row[totalPreceptorHoursCol]);
+    const segmentKey = preceptorHours > 0 ? 'preceptor' : 'nonPreceptor';
 
-    placements.total += rowPlacements;
-    addCount(placements.byShift, row[shiftCol], rowPlacements);
-    addCount(placements.byStudentType, row[studentTypeCol], rowPlacements);
-    addCount(placements.byProgress, row[progressCol], rowPlacements);
-
-    quarterCols.forEach(([quarter, col]) => {
-      if (col >= 0) {
-        addCount(placements.byQuarter, quarter, toCount(row[col]) * placementsPerRotation);
-      }
-    });
+    addRowToBucket(segments.inclusive, row, rowPlacements, placementsPerRotation);
+    addRowToBucket(segments[segmentKey], row, rowPlacements, placementsPerRotation);
   });
   
   return {
     name: facilityName,
     region,
     url,
-    placements
+    placements,
+    segments,
   };
 }
 
 /**
  * Get aggregated data for all facilities or by region
  */
-export function aggregateData(facilities, region = null, facility = null) {
+export function aggregateData(facilities, region = null, facility = null, segment = 'inclusive') {
   let filtered = facilities;
   
   if (region) {
@@ -146,33 +211,40 @@ export function aggregateData(facilities, region = null, facility = null) {
     filtered = filtered.filter(f => f.name === facility);
   }
   
-  // Aggregate all data
   const aggregated = {
     total: 0,
     byShift: {},
     byStudentType: {},
     byProgress: {},
     byQuarter: {},
+    byHealthcareFacility: {},
+    byEducationalFacility: {},
+    byProgramType: {},
+    byStudentTypeQuarter: {},
     facilities: filtered.map(f => f.name)
   };
   
   filtered.forEach(f => {
-    aggregated.total += f.placements.total;
-    
-    Object.entries(f.placements.byShift).forEach(([key, val]) => {
-      aggregated.byShift[key] = (aggregated.byShift[key] || 0) + val;
-    });
-    
-    Object.entries(f.placements.byStudentType).forEach(([key, val]) => {
-      aggregated.byStudentType[key] = (aggregated.byStudentType[key] || 0) + val;
-    });
-    
-    Object.entries(f.placements.byProgress).forEach(([key, val]) => {
-      aggregated.byProgress[key] = (aggregated.byProgress[key] || 0) + val;
-    });
-    
-    Object.entries(f.placements.byQuarter).forEach(([key, val]) => {
-      aggregated.byQuarter[key] = (aggregated.byQuarter[key] || 0) + val;
+    const placementSource = f.segments?.[segment] || f.placements;
+
+    aggregated.total += placementSource.total;
+
+    Object.entries(aggregated)
+      .filter(([key, value]) => key.startsWith('by') && typeof value === 'object')
+      .forEach(([key, target]) => {
+        if (key === 'byStudentTypeQuarter') {
+          Object.entries(placementSource.byStudentTypeQuarter || {}).forEach(([studentType, quarters]) => {
+            target[studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
+            Object.entries(quarters).forEach(([quarter, val]) => {
+              target[studentType][quarter] = (target[studentType][quarter] || 0) + val;
+            });
+          });
+          return;
+        }
+
+        Object.entries(placementSource[key] || {}).forEach(([entryKey, val]) => {
+          target[entryKey] = (target[entryKey] || 0) + val;
+        });
     });
   });
   
