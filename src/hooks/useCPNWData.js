@@ -7,7 +7,7 @@ import {
   getFacilitiesByRegion 
 } from '../services/dataService';
 
-export function useCPNWData(academicYear = null, region = null, facility = null) {
+export function useCPNWData(academicYear = null, region = null, facility = null, segment = 'inclusive') {
   const { 
     data: datasets = { academicYears: [], datasets: {} }, 
     isLoading, 
@@ -24,7 +24,7 @@ export function useCPNWData(academicYear = null, region = null, facility = null)
   const selectedAcademicYear = academicYear || academicYears[academicYears.length - 1] || '';
   const selectedDataset = datasets.datasets?.[selectedAcademicYear] || {};
   const facilities = selectedDataset.facilities || [];
-  const aggregated = aggregateData(facilities, region, facility);
+  const aggregated = aggregateData(facilities, region, facility, segment);
 
   const regions = getRegions(facilities);
   const regionFacilities = region 
