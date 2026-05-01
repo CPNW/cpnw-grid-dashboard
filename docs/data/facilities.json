@@ -1,6 +1,6 @@
 {
   "academicYear": "2024-2025",
-  "generatedAt": "2026-05-01T03:57:48.759Z",
+  "generatedAt": "2026-05-01T14:14:12.846Z",
   "sourceCount": 46,
   "facilityCount": 46,
   "failures": [],
@@ -3857,12 +3857,11 @@
           "Day": 405
         },
         "byStudentType": {
-          "ADN": 178,
+          "ADN": 186,
           "LPN": 6,
           "PN": 96,
           "BSN": 113,
           "ABSN": 2,
-          "AND": 8,
           "LPN-RN": 2
         },
         "byProgress": {
@@ -3893,20 +3892,19 @@
           "Seattle Central North": 24
         },
         "byProgramType": {
-          "ADN": 178,
+          "ADN": 186,
           "LPN": 6,
           "PN": 96,
           "BSN": 113,
           "ABSN": 2,
-          "AND": 8,
           "LPN-RN": 2
         },
         "byStudentTypeQuarter": {
           "ADN": {
-            "total": 178,
+            "total": 186,
             "Fall": 16,
             "Winter": 44,
-            "Spring": 102,
+            "Spring": 110,
             "Summer": 16
           },
           "LPN": {
@@ -3937,13 +3935,6 @@
             "Spring": 1,
             "Summer": 0
           },
-          "AND": {
-            "total": 8,
-            "Fall": 0,
-            "Winter": 0,
-            "Spring": 8,
-            "Summer": 0
-          },
           "LPN-RN": {
             "total": 2,
             "Fall": 2,
@@ -3960,12 +3951,11 @@
             "Day": 405
           },
           "byStudentType": {
-            "ADN": 178,
+            "ADN": 186,
             "LPN": 6,
             "PN": 96,
             "BSN": 113,
             "ABSN": 2,
-            "AND": 8,
             "LPN-RN": 2
           },
           "byProgress": {
@@ -3996,20 +3986,19 @@
             "Seattle Central North": 24
           },
           "byProgramType": {
-            "ADN": 178,
+            "ADN": 186,
             "LPN": 6,
             "PN": 96,
             "BSN": 113,
             "ABSN": 2,
-            "AND": 8,
             "LPN-RN": 2
           },
           "byStudentTypeQuarter": {
             "ADN": {
-              "total": 178,
+              "total": 186,
               "Fall": 16,
               "Winter": 44,
-              "Spring": 102,
+              "Spring": 110,
               "Summer": 16
             },
             "LPN": {
@@ -4038,13 +4027,6 @@
               "Fall": 0,
               "Winter": 1,
               "Spring": 1,
-              "Summer": 0
-            },
-            "AND": {
-              "total": 8,
-              "Fall": 0,
-              "Winter": 0,
-              "Spring": 8,
               "Summer": 0
             },
             "LPN-RN": {
@@ -4073,12 +4055,11 @@
             "Day": 405
           },
           "byStudentType": {
-            "ADN": 178,
+            "ADN": 186,
             "LPN": 6,
             "PN": 96,
             "BSN": 113,
             "ABSN": 2,
-            "AND": 8,
             "LPN-RN": 2
           },
           "byProgress": {
@@ -4109,20 +4090,19 @@
             "Seattle Central North": 24
           },
           "byProgramType": {
-            "ADN": 178,
+            "ADN": 186,
             "LPN": 6,
             "PN": 96,
             "BSN": 113,
             "ABSN": 2,
-            "AND": 8,
             "LPN-RN": 2
           },
           "byStudentTypeQuarter": {
             "ADN": {
-              "total": 178,
+              "total": 186,
               "Fall": 16,
               "Winter": 44,
-              "Spring": 102,
+              "Spring": 110,
               "Summer": 16
             },
             "LPN": {
@@ -4151,13 +4131,6 @@
               "Fall": 0,
               "Winter": 1,
               "Spring": 1,
-              "Summer": 0
-            },
-            "AND": {
-              "total": 8,
-              "Fall": 0,
-              "Winter": 0,
-              "Spring": 8,
               "Summer": 0
             },
             "LPN-RN": {
