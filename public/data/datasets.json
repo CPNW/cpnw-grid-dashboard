@@ -3,11 +3,11 @@
     "2023-2024",
     "2024-2025"
   ],
-  "generatedAt": "2026-05-01T14:14:12.846Z",
+  "generatedAt": "2026-05-01T20:48:20.391Z",
   "datasets": {
     "2023-2024": {
       "academicYear": "2023-2024",
-      "generatedAt": "2026-05-01T14:14:08.678Z",
+      "generatedAt": "2026-05-01T20:48:16.641Z",
       "sourceCount": 46,
       "facilityCount": 46,
       "failures": [],
@@ -84,6 +84,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 15744,
+              "BSN": 13336
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 4320,
+              "WSU": 9120,
+              "SCC": 11424,
+              "Gonzaga": 4216
             }
           },
           "segments": {
@@ -155,6 +165,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 15744,
+                "BSN": 13336
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 4320,
+                "WSU": 9120,
+                "SCC": 11424,
+                "Gonzaga": 4216
               }
             },
             "preceptor": {
@@ -201,6 +221,16 @@
                   "Spring": 20,
                   "Summer": 10
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 15744,
+                "BSN": 13336
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 4320,
+                "WSU": 9120,
+                "SCC": 11424,
+                "Gonzaga": 4216
               }
             },
             "nonPreceptor": {
@@ -270,7 +300,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -340,6 +372,12 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 960
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "WSU": 960
             }
           },
           "segments": {
@@ -405,6 +443,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 960
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 960
               }
             },
             "preceptor": {
@@ -437,6 +481,12 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 960
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 960
               }
             },
             "nonPreceptor": {
@@ -501,7 +551,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -581,6 +633,14 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 2976,
+              "BSN": 840
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 2976,
+              "LCSC": 840
             }
           },
           "segments": {
@@ -656,6 +716,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2976,
+                "BSN": 840
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 2976,
+                "LCSC": 840
               }
             },
             "preceptor": {
@@ -699,6 +767,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2976,
+                "BSN": 840
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 2976,
+                "LCSC": 840
               }
             },
             "nonPreceptor": {
@@ -752,7 +828,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -823,6 +901,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 5376,
+              "BSN": 11384
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SCC": 5376,
+              "Gonzaga": 3264,
+              "WSU": 5040,
+              "LCSC": 3080
             }
           },
           "segments": {
@@ -889,6 +977,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 5376,
+                "BSN": 11384
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 5376,
+                "Gonzaga": 3264,
+                "WSU": 5040,
+                "LCSC": 3080
               }
             },
             "preceptor": {
@@ -935,6 +1033,16 @@
                   "Spring": 13,
                   "Summer": 9
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 5376,
+                "BSN": 11384
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 5376,
+                "Gonzaga": 3264,
+                "WSU": 5040,
+                "LCSC": 3080
               }
             },
             "nonPreceptor": {
@@ -1000,7 +1108,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -1079,6 +1189,20 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 26601,
+              "ADN": 12480
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LCSC": 5180,
+              "WSU": 12720,
+              "SCC": 9912,
+              "Gonzaga": 8429,
+              "BBCC": 792,
+              "NIC": 1200,
+              "WWCC": 576,
+              "GU": 272
             }
           },
           "segments": {
@@ -1153,6 +1277,20 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 26601,
+                "ADN": 12480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 5180,
+                "WSU": 12720,
+                "SCC": 9912,
+                "Gonzaga": 8429,
+                "BBCC": 792,
+                "NIC": 1200,
+                "WWCC": 576,
+                "GU": 272
               }
             },
             "preceptor": {
@@ -1203,6 +1341,20 @@
                   "Spring": 7,
                   "Summer": 23
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 26601,
+                "ADN": 12480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 5180,
+                "WSU": 12720,
+                "SCC": 9912,
+                "Gonzaga": 8429,
+                "BBCC": 792,
+                "NIC": 1200,
+                "WWCC": 576,
+                "GU": 272
               }
             },
             "nonPreceptor": {
@@ -1273,7 +1425,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -1340,6 +1494,14 @@
                 "Spring": 5,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "PN": 900,
+              "BSN": 420
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 900,
+              "LCSC": 420
             }
           },
           "segments": {
@@ -1402,6 +1564,14 @@
                   "Spring": 5,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 900,
+                "BSN": 420
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 900,
+                "LCSC": 420
               }
             },
             "preceptor": {
@@ -1445,6 +1615,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 900,
+                "BSN": 420
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 900,
+                "LCSC": 420
               }
             },
             "nonPreceptor": {
@@ -1495,7 +1673,9 @@
                   "Spring": 15,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -1564,6 +1744,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 7200,
+              "BSN": 7128
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 3840,
+              "WSU": 6720,
+              "SCC": 3360,
+              "Gonzaga": 408
             }
           },
           "segments": {
@@ -1628,6 +1818,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 7200,
+                "BSN": 7128
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 3840,
+                "WSU": 6720,
+                "SCC": 3360,
+                "Gonzaga": 408
               }
             },
             "preceptor": {
@@ -1674,6 +1874,16 @@
                   "Spring": 14,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 7200,
+                "BSN": 7128
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 3840,
+                "WSU": 6720,
+                "SCC": 3360,
+                "Gonzaga": 408
               }
             },
             "nonPreceptor": {
@@ -1735,7 +1945,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -1800,6 +2012,15 @@
                 "Spring": 6,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 1624,
+              "LPN": 900
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "Gonzaga": 544,
+              "WSU": 1080,
+              "NIC": 900
             }
           },
           "segments": {
@@ -1860,6 +2081,15 @@
                   "Spring": 6,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1624,
+                "LPN": 900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Gonzaga": 544,
+                "WSU": 1080,
+                "NIC": 900
               }
             },
             "preceptor": {
@@ -1904,6 +2134,15 @@
                   "Spring": 6,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1624,
+                "LPN": 900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Gonzaga": 544,
+                "WSU": 1080,
+                "NIC": 900
               }
             },
             "nonPreceptor": {
@@ -1951,7 +2190,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -2038,6 +2279,21 @@
                 "Spring": 0,
                 "Summer": 7
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 7700,
+              "BSN": 4226,
+              "RNR": 3840,
+              "ADN": 4710
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 7700,
+              "SPU": 1050,
+              "BC": 7200,
+              "Seattle University": 1560,
+              "NWU": 960,
+              "LWTC": 1350,
+              "UW": 656
             }
           },
           "segments": {
@@ -2120,6 +2376,21 @@
                   "Spring": 0,
                   "Summer": 7
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 7700,
+                "BSN": 4226,
+                "RNR": 3840,
+                "ADN": 4710
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 7700,
+                "SPU": 1050,
+                "BC": 7200,
+                "Seattle University": 1560,
+                "NWU": 960,
+                "LWTC": 1350,
+                "UW": 656
               }
             },
             "preceptor": {
@@ -2187,6 +2458,21 @@
                   "Spring": 10,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 7700,
+                "BSN": 4226,
+                "RNR": 3840,
+                "ADN": 4710
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 7700,
+                "SPU": 1050,
+                "BC": 7200,
+                "Seattle University": 1560,
+                "NWU": 960,
+                "LWTC": 1350,
+                "UW": 656
               }
             },
             "nonPreceptor": {
@@ -2256,7 +2542,9 @@
                   "Spring": 32,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -2296,7 +2584,9 @@
                 "Spring": 32,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -2331,7 +2621,9 @@
                   "Spring": 32,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -2342,7 +2634,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 64,
@@ -2376,7 +2670,9 @@
                   "Spring": 32,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -2440,6 +2736,14 @@
                 "Spring": 36,
                 "Summer": 20
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 14888
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SPU": 1200,
+              "Seattle University": 8112,
+              "UW": 5576
             }
           },
           "segments": {
@@ -2499,6 +2803,14 @@
                   "Spring": 36,
                   "Summer": 20
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 14888
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1200,
+                "Seattle University": 8112,
+                "UW": 5576
               }
             },
             "preceptor": {
@@ -2534,6 +2846,14 @@
                   "Spring": 35,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 14888
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1200,
+                "Seattle University": 8112,
+                "UW": 5576
               }
             },
             "nonPreceptor": {
@@ -2591,7 +2911,9 @@
                   "Spring": 36,
                   "Summer": 20
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -2634,7 +2956,9 @@
                 "Spring": 28,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -2672,7 +2996,9 @@
                   "Spring": 28,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -2683,7 +3009,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 116,
@@ -2720,7 +3048,9 @@
                   "Spring": 28,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -2795,6 +3125,18 @@
                 "Spring": 0,
                 "Summer": 1
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 3420,
+              "BSN": 2848,
+              "RNR": 480
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LWTC": 2100,
+              "Seattle University": 1560,
+              "BC": 1800,
+              "NWU": 960,
+              "UW": 328
             }
           },
           "segments": {
@@ -2865,6 +3207,18 @@
                   "Spring": 0,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3420,
+                "BSN": 2848,
+                "RNR": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 2100,
+                "Seattle University": 1560,
+                "BC": 1800,
+                "NWU": 960,
+                "UW": 328
               }
             },
             "preceptor": {
@@ -2921,6 +3275,18 @@
                   "Spring": 0,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3420,
+                "BSN": 2848,
+                "RNR": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 2100,
+                "Seattle University": 1560,
+                "BC": 1800,
+                "NWU": 960,
+                "UW": 328
               }
             },
             "nonPreceptor": {
@@ -2980,7 +3346,9 @@
                   "Spring": 75,
                   "Summer": 16
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -3061,6 +3429,19 @@
                 "Spring": 180,
                 "Summer": 18
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 3580,
+              "ADN": 14502
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UW": 328,
+              "EVCC": 9240,
+              "LWTC": 3150,
+              "Seattle University": 1872,
+              "LCC": 2112,
+              "NWU": 960,
+              "LCSC": 420
             }
           },
           "segments": {
@@ -3137,6 +3518,19 @@
                   "Spring": 180,
                   "Summer": 18
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3580,
+                "ADN": 14502
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 328,
+                "EVCC": 9240,
+                "LWTC": 3150,
+                "Seattle University": 1872,
+                "LCC": 2112,
+                "NWU": 960,
+                "LCSC": 420
               }
             },
             "preceptor": {
@@ -3186,6 +3580,19 @@
                   "Spring": 26,
                   "Summer": 9
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3580,
+                "ADN": 14502
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 328,
+                "EVCC": 9240,
+                "LWTC": 3150,
+                "Seattle University": 1872,
+                "LCC": 2112,
+                "NWU": 960,
+                "LCSC": 420
               }
             },
             "nonPreceptor": {
@@ -3257,7 +3664,9 @@
                   "Spring": 154,
                   "Summer": 9
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -3332,6 +3741,18 @@
                 "Spring": 2,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 1904,
+              "ADN": 396,
+              "ABSN": 1540
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "ISU": 164,
+              "UW": 492,
+              "Seattle University": 1248,
+              "EVCC": 396,
+              "PLU": 1540
             }
           },
           "segments": {
@@ -3402,6 +3823,18 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1904,
+                "ADN": 396,
+                "ABSN": 1540
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "ISU": 164,
+                "UW": 492,
+                "Seattle University": 1248,
+                "EVCC": 396,
+                "PLU": 1540
               }
             },
             "preceptor": {
@@ -3458,6 +3891,18 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1904,
+                "ADN": 396,
+                "ABSN": 1540
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "ISU": 164,
+                "UW": 492,
+                "Seattle University": 1248,
+                "EVCC": 396,
+                "PLU": 1540
               }
             },
             "nonPreceptor": {
@@ -3515,7 +3960,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -3608,6 +4055,26 @@
                 "Spring": 2,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 26705,
+              "ADN": 7218,
+              "ABSN": 5084,
+              "ADN-BSN": 600
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 1350,
+              "WSU": 4185,
+              "EVCC": 2640,
+              "Seattle University": 5920,
+              "BC": 2040,
+              "UW": 7380,
+              "SPU": 4950,
+              "GU": 2584,
+              "PLU": 3980,
+              "NWU": 1440,
+              "SPSCC": 1188,
+              "LWTC": 1950
             }
           },
           "segments": {
@@ -3696,6 +4163,26 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 26705,
+                "ADN": 7218,
+                "ABSN": 5084,
+                "ADN-BSN": 600
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1350,
+                "WSU": 4185,
+                "EVCC": 2640,
+                "Seattle University": 5920,
+                "BC": 2040,
+                "UW": 7380,
+                "SPU": 4950,
+                "GU": 2584,
+                "PLU": 3980,
+                "NWU": 1440,
+                "SPSCC": 1188,
+                "LWTC": 1950
               }
             },
             "preceptor": {
@@ -3768,6 +4255,26 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 26705,
+                "ADN": 7218,
+                "ABSN": 5084,
+                "ADN-BSN": 600
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1350,
+                "WSU": 4185,
+                "EVCC": 2640,
+                "Seattle University": 5920,
+                "BC": 2040,
+                "UW": 7380,
+                "SPU": 4950,
+                "GU": 2584,
+                "PLU": 3980,
+                "NWU": 1440,
+                "SPSCC": 1188,
+                "LWTC": 1950
               }
             },
             "nonPreceptor": {
@@ -3840,7 +4347,9 @@
                   "Spring": 72,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -3895,6 +4404,12 @@
                 "Spring": 3,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 936
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "Seattle University": 936
             }
           },
           "segments": {
@@ -3945,6 +4460,12 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 936
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 936
               }
             },
             "preceptor": {
@@ -3976,6 +4497,12 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 936
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 936
               }
             },
             "nonPreceptor": {
@@ -4014,7 +4541,9 @@
                   "Spring": 24,
                   "Summer": 16
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -4070,6 +4599,13 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2840
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UW": 656,
+              "Seattle University": 2184
             }
           },
           "segments": {
@@ -4121,6 +4657,13 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2840
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 656,
+                "Seattle University": 2184
               }
             },
             "preceptor": {
@@ -4154,6 +4697,13 @@
                   "Spring": 7,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2840
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 656,
+                "Seattle University": 2184
               }
             },
             "nonPreceptor": {
@@ -4202,7 +4752,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -4262,6 +4814,16 @@
                 "Spring": 34,
                 "Summer": 3
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 7442,
+              "ADN": 1200
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SPU": 1050,
+              "Seattle University": 4992,
+              "BC": 1200,
+              "LCSC": 1400
             }
           },
           "segments": {
@@ -4317,6 +4879,16 @@
                   "Spring": 34,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7442,
+                "ADN": 1200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1050,
+                "Seattle University": 4992,
+                "BC": 1200,
+                "LCSC": 1400
               }
             },
             "preceptor": {
@@ -4363,6 +4935,16 @@
                   "Spring": 2,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7442,
+                "ADN": 1200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1050,
+                "Seattle University": 4992,
+                "BC": 1200,
+                "LCSC": 1400
               }
             },
             "nonPreceptor": {
@@ -4413,7 +4995,9 @@
                   "Spring": 32,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -4485,6 +5069,18 @@
                 "Spring": 2,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 3300,
+              "BSN": 6290,
+              "ABSN": 880
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "EVCC": 3300,
+              "UW": 2132,
+              "Seattle University": 2808,
+              "PLU": 880,
+              "SPU": 1350
             }
           },
           "segments": {
@@ -4552,6 +5148,18 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3300,
+                "BSN": 6290,
+                "ABSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 3300,
+                "UW": 2132,
+                "Seattle University": 2808,
+                "PLU": 880,
+                "SPU": 1350
               }
             },
             "preceptor": {
@@ -4607,6 +5215,18 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3300,
+                "BSN": 6290,
+                "ABSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 3300,
+                "UW": 2132,
+                "Seattle University": 2808,
+                "PLU": 880,
+                "SPU": 1350
               }
             },
             "nonPreceptor": {
@@ -4660,7 +5280,9 @@
                   "Spring": 12,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -4730,6 +5352,18 @@
                 "Spring": 120,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 14818,
+              "ADN": 3900
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UW": 4100,
+              "Seattle University": 7488,
+              "NWU": 1200,
+              "SPU": 1050,
+              "LWTC": 3900,
+              "LCSC": 980
             }
           },
           "segments": {
@@ -4795,6 +5429,18 @@
                   "Spring": 120,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 14818,
+                "ADN": 3900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 4100,
+                "Seattle University": 7488,
+                "NWU": 1200,
+                "SPU": 1050,
+                "LWTC": 3900,
+                "LCSC": 980
               }
             },
             "preceptor": {
@@ -4842,6 +5488,18 @@
                   "Spring": 6,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 14818,
+                "ADN": 3900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 4100,
+                "Seattle University": 7488,
+                "NWU": 1200,
+                "SPU": 1050,
+                "LWTC": 3900,
+                "LCSC": 980
               }
             },
             "nonPreceptor": {
@@ -4903,7 +5561,9 @@
                   "Spring": 92,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -4980,6 +5640,16 @@
                 "Spring": 6,
                 "Summer": 8
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 5412,
+              "ADN": 2280
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "U of WI Osh-Kosh": 784,
+              "UW": 2132,
+              "Seattle University": 2496,
+              "BC": 2280
             }
           },
           "segments": {
@@ -5052,6 +5722,16 @@
                   "Spring": 6,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 5412,
+                "ADN": 2280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "U of WI Osh-Kosh": 784,
+                "UW": 2132,
+                "Seattle University": 2496,
+                "BC": 2280
               }
             },
             "preceptor": {
@@ -5099,6 +5779,16 @@
                   "Spring": 3,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 5412,
+                "ADN": 2280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "U of WI Osh-Kosh": 784,
+                "UW": 2132,
+                "Seattle University": 2496,
+                "BC": 2280
               }
             },
             "nonPreceptor": {
@@ -5166,7 +5856,9 @@
                   "Spring": 6,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -5205,6 +5897,12 @@
                 "Spring": 1,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "EVCC": 528
             }
           },
           "segments": {
@@ -5239,6 +5937,12 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 528
               }
             },
             "preceptor": {
@@ -5272,6 +5976,12 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 528
               }
             },
             "nonPreceptor": {
@@ -5283,7 +5993,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -5337,6 +6049,14 @@
                 "Spring": 4,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 300,
+              "BSN": 624
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LWTC": 300,
+              "Seattle University": 624
             }
           },
           "segments": {
@@ -5386,6 +6106,14 @@
                   "Spring": 4,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 300,
+                "BSN": 624
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 300,
+                "Seattle University": 624
               }
             },
             "preceptor": {
@@ -5428,6 +6156,14 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 300,
+                "BSN": 624
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 300,
+                "Seattle University": 624
               }
             },
             "nonPreceptor": {
@@ -5465,7 +6201,9 @@
                   "Spring": 2,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -5533,6 +6271,15 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 6888,
+              "ABSN": 1540
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "Seattle University": 5928,
+              "NWU": 960,
+              "PLU": 1540
             }
           },
           "segments": {
@@ -5596,6 +6343,15 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 6888,
+                "ABSN": 1540
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 5928,
+                "NWU": 960,
+                "PLU": 1540
               }
             },
             "preceptor": {
@@ -5639,6 +6395,15 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 6888,
+                "ABSN": 1540
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 5928,
+                "NWU": 960,
+                "PLU": 1540
               }
             },
             "nonPreceptor": {
@@ -5689,7 +6454,9 @@
                   "Spring": 8,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -5787,6 +6554,21 @@
                 "Spring": 0,
                 "Summer": 4
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 8592,
+              "BSN": 6490,
+              "LPN-BSN": 1056
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "BC": 3000,
+              "HCC": 3744,
+              "Seattle University": 1248,
+              "LCC": 1848,
+              "NWU": 1680,
+              "SPU": 2250,
+              "UW": 1312,
+              "GRC": 1056
             }
           },
           "segments": {
@@ -5880,6 +6662,21 @@
                   "Spring": 0,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8592,
+                "BSN": 6490,
+                "LPN-BSN": 1056
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "BC": 3000,
+                "HCC": 3744,
+                "Seattle University": 1248,
+                "LCC": 1848,
+                "NWU": 1680,
+                "SPU": 2250,
+                "UW": 1312,
+                "GRC": 1056
               }
             },
             "preceptor": {
@@ -5939,6 +6736,21 @@
                   "Spring": 0,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8592,
+                "BSN": 6490,
+                "LPN-BSN": 1056
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "BC": 3000,
+                "HCC": 3744,
+                "Seattle University": 1248,
+                "LCC": 1848,
+                "NWU": 1680,
+                "SPU": 2250,
+                "UW": 1312,
+                "GRC": 1056
               }
             },
             "nonPreceptor": {
@@ -6019,7 +6831,9 @@
                   "Spring": 0,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -6085,6 +6899,16 @@
                 "Spring": 2,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 2880,
+              "ABSN": 440,
+              "BSN": 624
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "HCC": 2880,
+              "PLU": 440,
+              "Seattle University": 624
             }
           },
           "segments": {
@@ -6146,6 +6970,16 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2880,
+                "ABSN": 440,
+                "BSN": 624
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "HCC": 2880,
+                "PLU": 440,
+                "Seattle University": 624
               }
             },
             "preceptor": {
@@ -6199,6 +7033,16 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2880,
+                "ABSN": 440,
+                "BSN": 624
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "HCC": 2880,
+                "PLU": 440,
+                "Seattle University": 624
               }
             },
             "nonPreceptor": {
@@ -6238,7 +7082,9 @@
                   "Spring": 26,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -6282,7 +7128,9 @@
                 "Spring": 10,
                 "Summer": 10
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -6321,7 +7169,9 @@
                   "Spring": 10,
                   "Summer": 10
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -6332,7 +7182,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 36,
@@ -6370,7 +7222,9 @@
                   "Spring": 10,
                   "Summer": 10
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -6413,6 +7267,13 @@
                 "Spring": 15,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 2088
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "OC": 900,
+              "SPSCC": 1188
             }
           },
           "segments": {
@@ -6451,6 +7312,13 @@
                   "Spring": 15,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2088
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 900,
+                "SPSCC": 1188
               }
             },
             "preceptor": {
@@ -6483,6 +7351,13 @@
                   "Spring": 6,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2088
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 900,
+                "SPSCC": 1188
               }
             },
             "nonPreceptor": {
@@ -6518,7 +7393,9 @@
                   "Spring": 9,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -6593,6 +7470,18 @@
                 "Spring": 0,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 440,
+              "ADN": 1176,
+              "BSN": 2640,
+              "LPN-BSN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 3080,
+              "OC": 600,
+              "GRC": 528,
+              "HCC": 576
             }
           },
           "segments": {
@@ -6663,6 +7552,18 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 440,
+                "ADN": 1176,
+                "BSN": 2640,
+                "LPN-BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3080,
+                "OC": 600,
+                "GRC": 528,
+                "HCC": 576
               }
             },
             "preceptor": {
@@ -6727,6 +7628,18 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 440,
+                "ADN": 1176,
+                "BSN": 2640,
+                "LPN-BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3080,
+                "OC": 600,
+                "GRC": 528,
+                "HCC": 576
               }
             },
             "nonPreceptor": {
@@ -6764,7 +7677,9 @@
                   "Spring": 18,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -6862,6 +7777,21 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2420,
+              "ADN": 3084,
+              "VLBSN": 640,
+              "LPN-BSN": 792,
+              "ABSN": 880,
+              "PN": 220
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 3300,
+              "PIERCE": 1500,
+              "OC": 860,
+              "GRC": 792,
+              "HCC": 1584
             }
           },
           "segments": {
@@ -6955,6 +7885,21 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2420,
+                "ADN": 3084,
+                "VLBSN": 640,
+                "LPN-BSN": 792,
+                "ABSN": 880,
+                "PN": 220
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3300,
+                "PIERCE": 1500,
+                "OC": 860,
+                "GRC": 792,
+                "HCC": 1584
               }
             },
             "preceptor": {
@@ -7038,6 +7983,21 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2420,
+                "ADN": 3084,
+                "VLBSN": 640,
+                "LPN-BSN": 792,
+                "ABSN": 880,
+                "PN": 220
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3300,
+                "PIERCE": 1500,
+                "OC": 860,
+                "GRC": 792,
+                "HCC": 1584
               }
             },
             "nonPreceptor": {
@@ -7101,7 +8061,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -7169,6 +8131,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2550,
+              "LPN-BSN": 900,
+              "ADN": 2970
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 3450,
+              "SPSCC": 1980,
+              "GHC": 990
             }
           },
           "segments": {
@@ -7232,6 +8204,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2550,
+                "LPN-BSN": 900,
+                "ADN": 2970
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 3450,
+                "SPSCC": 1980,
+                "GHC": 990
               }
             },
             "preceptor": {
@@ -7286,6 +8268,16 @@
                   "Spring": 8,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2550,
+                "LPN-BSN": 900,
+                "ADN": 2970
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 3450,
+                "SPSCC": 1980,
+                "GHC": 990
               }
             },
             "nonPreceptor": {
@@ -7336,7 +8328,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -7373,6 +8367,12 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 880
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 880
             }
           },
           "segments": {
@@ -7405,6 +8405,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 880
               }
             },
             "preceptor": {
@@ -7436,6 +8442,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 880
               }
             },
             "nonPreceptor": {
@@ -7447,7 +8459,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -7556,6 +8570,25 @@
                 "Spring": 0,
                 "Summer": 4
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 7700,
+              "PN": 1744,
+              "ADN": 10146,
+              "LPN-BSN": 2934,
+              "ABSN": 3200,
+              "VLBSN": 1280
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 8260,
+              "OC": 2604,
+              "SMU": 3750,
+              "PIERCE": 4350,
+              "BATES": 1320,
+              "TCC": 2880,
+              "HCC": 2016,
+              "GRC": 1584,
+              "NWU": 240
             }
           },
           "segments": {
@@ -7660,6 +8693,25 @@
                   "Spring": 0,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7700,
+                "PN": 1744,
+                "ADN": 10146,
+                "LPN-BSN": 2934,
+                "ABSN": 3200,
+                "VLBSN": 1280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 8260,
+                "OC": 2604,
+                "SMU": 3750,
+                "PIERCE": 4350,
+                "BATES": 1320,
+                "TCC": 2880,
+                "HCC": 2016,
+                "GRC": 1584,
+                "NWU": 240
               }
             },
             "preceptor": {
@@ -7750,6 +8802,25 @@
                   "Spring": 0,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7700,
+                "PN": 1744,
+                "ADN": 10146,
+                "LPN-BSN": 2934,
+                "ABSN": 3200,
+                "VLBSN": 1280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 8260,
+                "OC": 2604,
+                "SMU": 3750,
+                "PIERCE": 4350,
+                "BATES": 1320,
+                "TCC": 2880,
+                "HCC": 2016,
+                "GRC": 1584,
+                "NWU": 240
               }
             },
             "nonPreceptor": {
@@ -7830,7 +8901,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -7903,6 +8976,19 @@
                 "Spring": 0,
                 "Summer": 34
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2810,
+              "ADN": 3072,
+              "LPN-BSN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 1050,
+              "PLU": 1760,
+              "TCC": 2340,
+              "PIERCE": 300,
+              "GRC": 528,
+              "HCC": 432
             }
           },
           "segments": {
@@ -7971,6 +9057,19 @@
                   "Spring": 0,
                   "Summer": 34
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2810,
+                "ADN": 3072,
+                "LPN-BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1050,
+                "PLU": 1760,
+                "TCC": 2340,
+                "PIERCE": 300,
+                "GRC": 528,
+                "HCC": 432
               }
             },
             "preceptor": {
@@ -8028,6 +9127,19 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2810,
+                "ADN": 3072,
+                "LPN-BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1050,
+                "PLU": 1760,
+                "TCC": 2340,
+                "PIERCE": 300,
+                "GRC": 528,
+                "HCC": 432
               }
             },
             "nonPreceptor": {
@@ -8094,7 +9206,9 @@
                   "Spring": 0,
                   "Summer": 32
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -8148,6 +9262,14 @@
                 "Spring": 9,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2200,
+              "ADN": 792
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 2200,
+              "SPSCC": 792
             }
           },
           "segments": {
@@ -8197,6 +9319,14 @@
                   "Spring": 9,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2200,
+                "ADN": 792
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2200,
+                "SPSCC": 792
               }
             },
             "preceptor": {
@@ -8240,6 +9370,14 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2200,
+                "ADN": 792
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2200,
+                "SPSCC": 792
               }
             },
             "nonPreceptor": {
@@ -8276,7 +9414,9 @@
                   "Spring": 7,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -8372,6 +9512,20 @@
                 "Spring": 1,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 4620,
+              "ADN": 14652,
+              "LPN-BSN": 1320,
+              "ABSN": 480,
+              "PN": 264
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 5100,
+              "HCC": 4032,
+              "TCC": 7020,
+              "PIERCE": 3600,
+              "GRC": 1584
             }
           },
           "segments": {
@@ -8463,6 +9617,20 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 4620,
+                "ADN": 14652,
+                "LPN-BSN": 1320,
+                "ABSN": 480,
+                "PN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 5100,
+                "HCC": 4032,
+                "TCC": 7020,
+                "PIERCE": 3600,
+                "GRC": 1584
               }
             },
             "preceptor": {
@@ -8541,6 +9709,20 @@
                   "Spring": 0,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 4620,
+                "ADN": 14652,
+                "LPN-BSN": 1320,
+                "ABSN": 480,
+                "PN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 5100,
+                "HCC": 4032,
+                "TCC": 7020,
+                "PIERCE": 3600,
+                "GRC": 1584
               }
             },
             "nonPreceptor": {
@@ -8620,7 +9802,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -8697,6 +9881,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 8232,
+              "BSN": 1650,
+              "LPN-BSN": 1050
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LCC": 4752,
+              "CC": 3480,
+              "SMU": 2700
             }
           },
           "segments": {
@@ -8769,6 +9963,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8232,
+                "BSN": 1650,
+                "LPN-BSN": 1050
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCC": 4752,
+                "CC": 3480,
+                "SMU": 2700
               }
             },
             "preceptor": {
@@ -8823,6 +10027,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8232,
+                "BSN": 1650,
+                "LPN-BSN": 1050
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCC": 4752,
+                "CC": 3480,
+                "SMU": 2700
               }
             },
             "nonPreceptor": {
@@ -8874,7 +10088,9 @@
                   "Spring": 12,
                   "Summer": 12
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -8948,6 +10164,19 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 11470,
+              "ADN": 19101,
+              "LPN-BSN": 900
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 5550,
+              "LCC": 4356,
+              "SPSCC": 7920,
+              "CC": 3360,
+              "PLU": 6820,
+              "GHC": 3465
             }
           },
           "segments": {
@@ -9017,6 +10246,19 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 11470,
+                "ADN": 19101,
+                "LPN-BSN": 900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 5550,
+                "LCC": 4356,
+                "SPSCC": 7920,
+                "CC": 3360,
+                "PLU": 6820,
+                "GHC": 3465
               }
             },
             "preceptor": {
@@ -9074,6 +10316,19 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 11470,
+                "ADN": 19101,
+                "LPN-BSN": 900
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 5550,
+                "LCC": 4356,
+                "SPSCC": 7920,
+                "CC": 3360,
+                "PLU": 6820,
+                "GHC": 3465
               }
             },
             "nonPreceptor": {
@@ -9140,7 +10395,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -9216,6 +10473,18 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 5190,
+              "VLBSN": 1440,
+              "PN": 212,
+              "ABSN": 440
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PIERCE": 1200,
+              "OC": 4202,
+              "TCC": 1440,
+              "PLU": 440
             }
           },
           "segments": {
@@ -9287,6 +10556,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 5190,
+                "VLBSN": 1440,
+                "PN": 212,
+                "ABSN": 440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PIERCE": 1200,
+                "OC": 4202,
+                "TCC": 1440,
+                "PLU": 440
               }
             },
             "preceptor": {
@@ -9351,6 +10632,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 5190,
+                "VLBSN": 1440,
+                "PN": 212,
+                "ABSN": 440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PIERCE": 1200,
+                "OC": 4202,
+                "TCC": 1440,
+                "PLU": 440
               }
             },
             "nonPreceptor": {
@@ -9401,7 +10694,9 @@
                   "Spring": 0,
                   "Summer": 9
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -9487,6 +10782,20 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 3750,
+              "ADN": 3360,
+              "LPN-BSN": 450,
+              "ABSN": 440,
+              "PN": 240
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 3740,
+              "PIERCE": 1200,
+              "SMU": 900,
+              "TCC": 2160,
+              "BTC": 240
             }
           },
           "segments": {
@@ -9568,6 +10877,20 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3750,
+                "ADN": 3360,
+                "LPN-BSN": 450,
+                "ABSN": 440,
+                "PN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3740,
+                "PIERCE": 1200,
+                "SMU": 900,
+                "TCC": 2160,
+                "BTC": 240
               }
             },
             "preceptor": {
@@ -9642,6 +10965,20 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3750,
+                "ADN": 3360,
+                "LPN-BSN": 450,
+                "ABSN": 440,
+                "PN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3740,
+                "PIERCE": 1200,
+                "SMU": 900,
+                "TCC": 2160,
+                "BTC": 240
               }
             },
             "nonPreceptor": {
@@ -9691,7 +11028,9 @@
                   "Spring": 16,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -9749,6 +11088,16 @@
                 "Spring": 1,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 1332,
+              "BSN": 440,
+              "ABSN": 480
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PIERCE": 900,
+              "PLU": 920,
+              "HCC": 432
             }
           },
           "segments": {
@@ -9802,6 +11151,16 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1332,
+                "BSN": 440,
+                "ABSN": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PIERCE": 900,
+                "PLU": 920,
+                "HCC": 432
               }
             },
             "preceptor": {
@@ -9854,6 +11213,16 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1332,
+                "BSN": 440,
+                "ABSN": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PIERCE": 900,
+                "PLU": 920,
+                "HCC": 432
               }
             },
             "nonPreceptor": {
@@ -9865,7 +11234,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -9934,6 +11305,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 1728,
+              "BSN": 3796,
+              "ABSN": 660
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "HCC": 1728,
+              "PLU": 3520,
+              "Seattle University": 936
             }
           },
           "segments": {
@@ -9998,6 +11379,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1728,
+                "BSN": 3796,
+                "ABSN": 660
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "HCC": 1728,
+                "PLU": 3520,
+                "Seattle University": 936
               }
             },
             "preceptor": {
@@ -10051,6 +11442,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1728,
+                "BSN": 3796,
+                "ABSN": 660
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "HCC": 1728,
+                "PLU": 3520,
+                "Seattle University": 936
               }
             },
             "nonPreceptor": {
@@ -10103,7 +11504,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -10215,6 +11618,22 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 7142,
+              "ADN": 12798,
+              "ABSN": 3740,
+              "VLBSN": 1600,
+              "PN": 480
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 10560,
+              "TCC": 7740,
+              "PIERCE": 2850,
+              "OC": 2800,
+              "HCC": 1008,
+              "ISU": 322,
+              "BTC": 480
             }
           },
           "segments": {
@@ -10322,6 +11741,22 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7142,
+                "ADN": 12798,
+                "ABSN": 3740,
+                "VLBSN": 1600,
+                "PN": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 10560,
+                "TCC": 7740,
+                "PIERCE": 2850,
+                "OC": 2800,
+                "HCC": 1008,
+                "ISU": 322,
+                "BTC": 480
               }
             },
             "preceptor": {
@@ -10401,6 +11836,22 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7142,
+                "ADN": 12798,
+                "ABSN": 3740,
+                "VLBSN": 1600,
+                "PN": 480
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 10560,
+                "TCC": 7740,
+                "PIERCE": 2850,
+                "OC": 2800,
+                "HCC": 1008,
+                "ISU": 322,
+                "BTC": 480
               }
             },
             "nonPreceptor": {
@@ -10475,7 +11926,9 @@
                   "Spring": 32,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -10542,6 +11995,14 @@
                 "Spring": 40,
                 "Summer": 9
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "PN": 1590,
+              "ADN": 7950,
+              "VLBSN": 1120
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "OC": 10660
             }
           },
           "segments": {
@@ -10604,6 +12065,14 @@
                   "Spring": 40,
                   "Summer": 9
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 1590,
+                "ADN": 7950,
+                "VLBSN": 1120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 10660
               }
             },
             "preceptor": {
@@ -10655,6 +12124,14 @@
                   "Spring": 0,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 1590,
+                "ADN": 7950,
+                "VLBSN": 1120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 10660
               }
             },
             "nonPreceptor": {
@@ -10715,7 +12192,9 @@
                   "Spring": 40,
                   "Summer": 9
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -10817,6 +12296,15 @@
                 "Spring": 20,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "PN": 212,
+              "ADN": 972
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "OC": 512,
+              "HCC": 432,
+              "CC": 240
             }
           },
           "segments": {
@@ -10914,6 +12402,15 @@
                   "Spring": 20,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 212,
+                "ADN": 972
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 512,
+                "HCC": 432,
+                "CC": 240
               }
             },
             "preceptor": {
@@ -10958,6 +12455,15 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "PN": 212,
+                "ADN": 972
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "OC": 512,
+                "HCC": 432,
+                "CC": 240
               }
             },
             "nonPreceptor": {
@@ -11051,7 +12557,9 @@
                   "Spring": 20,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         }
@@ -11059,7 +12567,7 @@
     },
     "2024-2025": {
       "academicYear": "2024-2025",
-      "generatedAt": "2026-05-01T14:14:12.846Z",
+      "generatedAt": "2026-05-01T20:48:20.391Z",
       "sourceCount": 46,
       "facilityCount": 46,
       "failures": [],
@@ -11130,6 +12638,12 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 1440
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "WSU": 1440
             }
           },
           "segments": {
@@ -11195,6 +12709,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 1440
               }
             },
             "preceptor": {
@@ -11227,6 +12747,12 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 1440
               }
             },
             "nonPreceptor": {
@@ -11290,7 +12816,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -11352,6 +12880,18 @@
                 "Spring": 48,
                 "Summer": 49
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 13488,
+              "BSN": 16708
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 4080,
+              "WSU": 6030,
+              "SCC": 9408,
+              "EWU": 6150,
+              "Gonzaga": 3128,
+              "LCSC": 1400
             }
           },
           "segments": {
@@ -11409,6 +12949,18 @@
                   "Spring": 48,
                   "Summer": 49
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 13488,
+                "BSN": 16708
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 4080,
+                "WSU": 6030,
+                "SCC": 9408,
+                "EWU": 6150,
+                "Gonzaga": 3128,
+                "LCSC": 1400
               }
             },
             "preceptor": {
@@ -11457,6 +13009,18 @@
                   "Spring": 13,
                   "Summer": 5
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 13488,
+                "BSN": 16708
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 4080,
+                "WSU": 6030,
+                "SCC": 9408,
+                "EWU": 6150,
+                "Gonzaga": 3128,
+                "LCSC": 1400
               }
             },
             "nonPreceptor": {
@@ -11511,7 +13075,9 @@
                   "Spring": 48,
                   "Summer": 32
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -11585,6 +13151,15 @@
                 "Spring": 2,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 3780,
+              "BSN": 1530
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 3780,
+              "LCSC": 1120,
+              "EWU": 410
             }
           },
           "segments": {
@@ -11654,6 +13229,15 @@
                   "Spring": 2,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3780,
+                "BSN": 1530
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 3780,
+                "LCSC": 1120,
+                "EWU": 410
               }
             },
             "preceptor": {
@@ -11698,6 +13282,15 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3780,
+                "BSN": 1530
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 3780,
+                "LCSC": 1120,
+                "EWU": 410
               }
             },
             "nonPreceptor": {
@@ -11744,7 +13337,9 @@
                   "Spring": 2,
                   "Summer": 2
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -11781,6 +13376,12 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 410
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "EWU": 410
             }
           },
           "segments": {
@@ -11813,6 +13414,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 410
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EWU": 410
               }
             },
             "preceptor": {
@@ -11844,6 +13451,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 410
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EWU": 410
               }
             },
             "nonPreceptor": {
@@ -11855,7 +13468,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -11915,6 +13530,17 @@
                 "Spring": 8,
                 "Summer": 25
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 6384,
+              "BSN": 14195
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SCC": 6384,
+              "EWU": 3075,
+              "Gonzaga": 4080,
+              "WSU": 4800,
+              "LCSC": 2240
             }
           },
           "segments": {
@@ -11970,6 +13596,17 @@
                   "Spring": 8,
                   "Summer": 25
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6384,
+                "BSN": 14195
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 6384,
+                "EWU": 3075,
+                "Gonzaga": 4080,
+                "WSU": 4800,
+                "LCSC": 2240
               }
             },
             "preceptor": {
@@ -12020,6 +13657,17 @@
                   "Spring": 12,
                   "Summer": 7
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6384,
+                "BSN": 14195
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 6384,
+                "EWU": 3075,
+                "Gonzaga": 4080,
+                "WSU": 4800,
+                "LCSC": 2240
               }
             },
             "nonPreceptor": {
@@ -12073,7 +13721,9 @@
                   "Spring": 8,
                   "Summer": 12
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -12115,6 +13765,12 @@
                 "Spring": 0,
                 "Summer": 1
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 240
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "WSU": 240
             }
           },
           "segments": {
@@ -12152,6 +13808,12 @@
                   "Spring": 0,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 240
               }
             },
             "preceptor": {
@@ -12183,6 +13845,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "WSU": 240
               }
             },
             "nonPreceptor": {
@@ -12218,7 +13886,9 @@
                   "Spring": 0,
                   "Summer": 1
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -12285,6 +13955,19 @@
                 "Spring": 82,
                 "Summer": 54
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 41927,
+              "ADN": 12972
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LCSC": 7280,
+              "SCC": 10416,
+              "EWU": 12095,
+              "Gonzaga": 9112,
+              "WSU": 13440,
+              "NIC": 1980,
+              "WWCC": 576
             }
           },
           "segments": {
@@ -12347,6 +14030,19 @@
                   "Spring": 82,
                   "Summer": 54
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 41927,
+                "ADN": 12972
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 7280,
+                "SCC": 10416,
+                "EWU": 12095,
+                "Gonzaga": 9112,
+                "WSU": 13440,
+                "NIC": 1980,
+                "WWCC": 576
               }
             },
             "preceptor": {
@@ -12400,6 +14096,19 @@
                   "Spring": 7,
                   "Summer": 20
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 41927,
+                "ADN": 12972
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 7280,
+                "SCC": 10416,
+                "EWU": 12095,
+                "Gonzaga": 9112,
+                "WSU": 13440,
+                "NIC": 1980,
+                "WWCC": 576
               }
             },
             "nonPreceptor": {
@@ -12457,7 +14166,9 @@
                   "Spring": 75,
                   "Summer": 34
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -12496,6 +14207,13 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 1530
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LCSC": 1120,
+              "EWU": 410
             }
           },
           "segments": {
@@ -12530,6 +14248,13 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1530
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 1120,
+                "EWU": 410
               }
             },
             "preceptor": {
@@ -12563,6 +14288,13 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 1530
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCSC": 1120,
+                "EWU": 410
               }
             },
             "nonPreceptor": {
@@ -12574,7 +14306,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -12632,6 +14366,14 @@
                 "Spring": 24,
                 "Summer": 4
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 2352,
+              "BSN": 560
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SCC": 2352,
+              "LCSC": 560
             }
           },
           "segments": {
@@ -12685,6 +14427,14 @@
                   "Spring": 24,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2352,
+                "BSN": 560
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 2352,
+                "LCSC": 560
               }
             },
             "preceptor": {
@@ -12728,6 +14478,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2352,
+                "BSN": 560
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SCC": 2352,
+                "LCSC": 560
               }
             },
             "nonPreceptor": {
@@ -12778,7 +14536,9 @@
                   "Spring": 24,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -12838,6 +14598,17 @@
                 "Spring": 0,
                 "Summer": 30
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 6576,
+              "BSN": 5844
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NIC": 2880,
+              "WSU": 3660,
+              "SCC": 3696,
+              "EWU": 1640,
+              "GU": 544
             }
           },
           "segments": {
@@ -12893,6 +14664,17 @@
                   "Spring": 0,
                   "Summer": 30
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6576,
+                "BSN": 5844
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 2880,
+                "WSU": 3660,
+                "SCC": 3696,
+                "EWU": 1640,
+                "GU": 544
               }
             },
             "preceptor": {
@@ -12941,6 +14723,17 @@
                   "Spring": 8,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6576,
+                "BSN": 5844
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NIC": 2880,
+                "WSU": 3660,
+                "SCC": 3696,
+                "EWU": 1640,
+                "GU": 544
               }
             },
             "nonPreceptor": {
@@ -12992,7 +14785,9 @@
                   "Spring": 0,
                   "Summer": 24
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -13055,6 +14850,14 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 164,
+              "ADN": 240
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "ISU": 164,
+              "NIC": 240
             }
           },
           "segments": {
@@ -13113,6 +14916,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 164,
+                "ADN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "ISU": 164,
+                "NIC": 240
               }
             },
             "preceptor": {
@@ -13155,6 +14966,14 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 164,
+                "ADN": 240
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "ISU": 164,
+                "NIC": 240
               }
             },
             "nonPreceptor": {
@@ -13200,7 +15019,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -13287,6 +15108,22 @@
                 "Spring": 1,
                 "Summer": 3
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 11000,
+              "BSN": 7404,
+              "ADN": 5360,
+              "RNR": 1280
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 11000,
+              "Seattle University": 3276,
+              "BC": 2920,
+              "NWU": 1080,
+              "EVCC": 1320,
+              "SPU": 1800,
+              "LWTC": 2400,
+              "UW": 1248
             }
           },
           "segments": {
@@ -13369,6 +15206,22 @@
                   "Spring": 1,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 11000,
+                "BSN": 7404,
+                "ADN": 5360,
+                "RNR": 1280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 11000,
+                "Seattle University": 3276,
+                "BC": 2920,
+                "NWU": 1080,
+                "EVCC": 1320,
+                "SPU": 1800,
+                "LWTC": 2400,
+                "UW": 1248
               }
             },
             "preceptor": {
@@ -13437,6 +15290,22 @@
                   "Spring": 1,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 11000,
+                "BSN": 7404,
+                "ADN": 5360,
+                "RNR": 1280
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 11000,
+                "Seattle University": 3276,
+                "BC": 2920,
+                "NWU": 1080,
+                "EVCC": 1320,
+                "SPU": 1800,
+                "LWTC": 2400,
+                "UW": 1248
               }
             },
             "nonPreceptor": {
@@ -13507,7 +15376,9 @@
                   "Spring": 48,
                   "Summer": 36
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -13573,6 +15444,14 @@
                 "Spring": 24,
                 "Summer": 8
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 18744
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SPU": 3300,
+              "Seattle University": 9048,
+              "UW": 6396
             }
           },
           "segments": {
@@ -13634,6 +15513,14 @@
                   "Spring": 24,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 18744
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 3300,
+                "Seattle University": 9048,
+                "UW": 6396
               }
             },
             "preceptor": {
@@ -13671,6 +15558,14 @@
                   "Spring": 46,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 18744
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 3300,
+                "Seattle University": 9048,
+                "UW": 6396
               }
             },
             "nonPreceptor": {
@@ -13729,7 +15624,9 @@
                   "Spring": 24,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -13769,7 +15666,9 @@
                 "Spring": 15,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -13804,7 +15703,9 @@
                   "Spring": 15,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -13815,7 +15716,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 25,
@@ -13849,7 +15752,9 @@
                   "Spring": 15,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -13936,6 +15841,18 @@
                 "Spring": 0,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 3460,
+              "BSN": 1872,
+              "RNR": 1280,
+              "ABSN": 440
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LWTC": 2100,
+              "Seattle University": 1872,
+              "BC": 2640,
+              "PLU": 440
             }
           },
           "segments": {
@@ -14018,6 +15935,18 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3460,
+                "BSN": 1872,
+                "RNR": 1280,
+                "ABSN": 440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 2100,
+                "Seattle University": 1872,
+                "BC": 2640,
+                "PLU": 440
               }
             },
             "preceptor": {
@@ -14085,6 +16014,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3460,
+                "BSN": 1872,
+                "RNR": 1280,
+                "ABSN": 440
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LWTC": 2100,
+                "Seattle University": 1872,
+                "BC": 2640,
+                "PLU": 440
               }
             },
             "nonPreceptor": {
@@ -14156,7 +16097,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -14230,6 +16173,16 @@
                 "Spring": 148,
                 "Summer": 1
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 1100,
+              "ADN": 9576
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 1100,
+              "LCC": 264,
+              "EVCC": 8712,
+              "LWTC": 600
             }
           },
           "segments": {
@@ -14299,6 +16252,16 @@
                   "Spring": 148,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 1100,
+                "ADN": 9576
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 1100,
+                "LCC": 264,
+                "EVCC": 8712,
+                "LWTC": 600
               }
             },
             "preceptor": {
@@ -14345,6 +16308,16 @@
                   "Spring": 19,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 1100,
+                "ADN": 9576
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 1100,
+                "LCC": 264,
+                "EVCC": 8712,
+                "LWTC": 600
               }
             },
             "nonPreceptor": {
@@ -14410,7 +16383,9 @@
                   "Spring": 129,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -14471,6 +16446,16 @@
                 "Spring": 67,
                 "Summer": 8
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2564,
+              "ADN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UW": 1148,
+              "NWU": 480,
+              "Seattle University": 936,
+              "EVCC": 528
             }
           },
           "segments": {
@@ -14527,6 +16512,16 @@
                   "Spring": 67,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2564,
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 1148,
+                "NWU": 480,
+                "Seattle University": 936,
+                "EVCC": 528
               }
             },
             "preceptor": {
@@ -14572,6 +16567,16 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2564,
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 1148,
+                "NWU": 480,
+                "Seattle University": 936,
+                "EVCC": 528
               }
             },
             "nonPreceptor": {
@@ -14626,7 +16631,9 @@
                   "Spring": 66,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -14706,6 +16713,24 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 32638,
+              "ADN": 11678
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UP": 1920,
+              "GU": 1632,
+              "EVCC": 5148,
+              "NWU": 1200,
+              "WSU": 3510,
+              "SPU": 5400,
+              "Seattle University": 4680,
+              "UW": 7956,
+              "PLU": 4840,
+              "LWTC": 2850,
+              "SMU": 1500,
+              "BC": 3680
             }
           },
           "segments": {
@@ -14781,6 +16806,24 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 32638,
+                "ADN": 11678
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UP": 1920,
+                "GU": 1632,
+                "EVCC": 5148,
+                "NWU": 1200,
+                "WSU": 3510,
+                "SPU": 5400,
+                "Seattle University": 4680,
+                "UW": 7956,
+                "PLU": 4840,
+                "LWTC": 2850,
+                "SMU": 1500,
+                "BC": 3680
               }
             },
             "preceptor": {
@@ -14835,6 +16878,24 @@
                   "Spring": 14,
                   "Summer": 5
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 32638,
+                "ADN": 11678
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UP": 1920,
+                "GU": 1632,
+                "EVCC": 5148,
+                "NWU": 1200,
+                "WSU": 3510,
+                "SPU": 5400,
+                "Seattle University": 4680,
+                "UW": 7956,
+                "PLU": 4840,
+                "LWTC": 2850,
+                "SMU": 1500,
+                "BC": 3680
               }
             },
             "nonPreceptor": {
@@ -14902,7 +16963,9 @@
                   "Spring": 115,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -15001,7 +17064,9 @@
                 "Spring": 0,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -15095,7 +17160,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -15106,7 +17173,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 405,
@@ -15199,7 +17268,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -15256,6 +17327,13 @@
                 "Spring": 20,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 3120
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "Seattle University": 1872,
+              "UW": 1248
             }
           },
           "segments": {
@@ -15308,6 +17386,13 @@
                   "Spring": 20,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 1872,
+                "UW": 1248
               }
             },
             "preceptor": {
@@ -15340,6 +17425,13 @@
                   "Spring": 12,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "Seattle University": 1872,
+                "UW": 1248
               }
             },
             "nonPreceptor": {
@@ -15389,7 +17481,9 @@
                   "Spring": 20,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -15463,6 +17557,19 @@
                 "Spring": 0,
                 "Summer": 10
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 10632,
+              "ADN": 1120
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SPU": 1500,
+              "UP": 240,
+              "UW": 1560,
+              "Seattle University": 4212,
+              "NWU": 1440,
+              "LCSC": 1680,
+              "BC": 1120
             }
           },
           "segments": {
@@ -15532,6 +17639,19 @@
                   "Spring": 0,
                   "Summer": 10
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10632,
+                "ADN": 1120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1500,
+                "UP": 240,
+                "UW": 1560,
+                "Seattle University": 4212,
+                "NWU": 1440,
+                "LCSC": 1680,
+                "BC": 1120
               }
             },
             "preceptor": {
@@ -15582,6 +17702,19 @@
                   "Spring": 1,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10632,
+                "ADN": 1120
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SPU": 1500,
+                "UP": 240,
+                "UW": 1560,
+                "Seattle University": 4212,
+                "NWU": 1440,
+                "LCSC": 1680,
+                "BC": 1120
               }
             },
             "nonPreceptor": {
@@ -15643,7 +17776,9 @@
                   "Spring": 0,
                   "Summer": 10
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -15721,6 +17856,18 @@
                 "Spring": 33,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 1540,
+              "BSN": 5274,
+              "ADN": 2640
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 1540,
+              "UW": 2028,
+              "Seattle University": 2496,
+              "EVCC": 2640,
+              "SPU": 750
             }
           },
           "segments": {
@@ -15794,6 +17941,18 @@
                   "Spring": 33,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 1540,
+                "BSN": 5274,
+                "ADN": 2640
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 1540,
+                "UW": 2028,
+                "Seattle University": 2496,
+                "EVCC": 2640,
+                "SPU": 750
               }
             },
             "preceptor": {
@@ -15849,6 +18008,18 @@
                   "Spring": 4,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 1540,
+                "BSN": 5274,
+                "ADN": 2640
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 1540,
+                "UW": 2028,
+                "Seattle University": 2496,
+                "EVCC": 2640,
+                "SPU": 750
               }
             },
             "nonPreceptor": {
@@ -15918,7 +18089,9 @@
                   "Spring": 16,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -15996,6 +18169,19 @@
                 "Spring": 0,
                 "Summer": 24
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 15738,
+              "ADN": 2250
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NWU": 1440,
+              "UW": 3900,
+              "Seattle University": 6708,
+              "UP": 480,
+              "LWTC": 2250,
+              "SPU": 1950,
+              "LCSC": 1260
             }
           },
           "segments": {
@@ -16069,6 +18255,19 @@
                   "Spring": 0,
                   "Summer": 24
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 15738,
+                "ADN": 2250
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NWU": 1440,
+                "UW": 3900,
+                "Seattle University": 6708,
+                "UP": 480,
+                "LWTC": 2250,
+                "SPU": 1950,
+                "LCSC": 1260
               }
             },
             "preceptor": {
@@ -16118,6 +18317,19 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 15738,
+                "ADN": 2250
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NWU": 1440,
+                "UW": 3900,
+                "Seattle University": 6708,
+                "UP": 480,
+                "LWTC": 2250,
+                "SPU": 1950,
+                "LCSC": 1260
               }
             },
             "nonPreceptor": {
@@ -16186,7 +18398,9 @@
                   "Spring": 0,
                   "Summer": 24
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -16260,6 +18474,16 @@
                 "Spring": 8,
                 "Summer": 8
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 5412,
+              "ADN": 1320
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "UW": 2496,
+              "Seattle University": 2652,
+              "BC": 1320,
+              "GRC": 264
             }
           },
           "segments": {
@@ -16329,6 +18553,16 @@
                   "Spring": 8,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 5412,
+                "ADN": 1320
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 2496,
+                "Seattle University": 2652,
+                "BC": 1320,
+                "GRC": 264
               }
             },
             "preceptor": {
@@ -16375,6 +18609,16 @@
                   "Spring": 2,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 5412,
+                "ADN": 1320
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "UW": 2496,
+                "Seattle University": 2652,
+                "BC": 1320,
+                "GRC": 264
               }
             },
             "nonPreceptor": {
@@ -16441,7 +18685,9 @@
                   "Spring": 8,
                   "Summer": 8
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -16480,6 +18726,12 @@
                 "Spring": 1,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "EVCC": 528
             }
           },
           "segments": {
@@ -16514,6 +18766,12 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 528
               }
             },
             "preceptor": {
@@ -16547,6 +18805,12 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "EVCC": 528
               }
             },
             "nonPreceptor": {
@@ -16558,7 +18822,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -16611,7 +18877,9 @@
                 "Spring": 0,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -16659,7 +18927,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -16670,7 +18940,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 15,
@@ -16717,7 +18989,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -16805,6 +19079,20 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 6332,
+              "BSN": 11262
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "BC": 3440,
+              "UW": 1968,
+              "LCC": 2112,
+              "NWU": 1440,
+              "Seattle University": 3120,
+              "GRC": 1584,
+              "RTC": 780,
+              "SPU": 3150
             }
           },
           "segments": {
@@ -16888,6 +19176,20 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6332,
+                "BSN": 11262
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "BC": 3440,
+                "UW": 1968,
+                "LCC": 2112,
+                "NWU": 1440,
+                "Seattle University": 3120,
+                "GRC": 1584,
+                "RTC": 780,
+                "SPU": 3150
               }
             },
             "preceptor": {
@@ -16938,6 +19240,20 @@
                   "Spring": 23,
                   "Summer": 6
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 6332,
+                "BSN": 11262
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "BC": 3440,
+                "UW": 1968,
+                "LCC": 2112,
+                "NWU": 1440,
+                "Seattle University": 3120,
+                "GRC": 1584,
+                "RTC": 780,
+                "SPU": 3150
               }
             },
             "nonPreceptor": {
@@ -17018,7 +19334,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -17087,6 +19405,17 @@
                 "Spring": 8,
                 "Summer": 7
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 7380,
+              "ABSN": 6380
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "NWU": 960,
+              "Seattle University": 4680,
+              "PLU": 6380,
+              "NU": 240,
+              "SPU": 1500
             }
           },
           "segments": {
@@ -17151,6 +19480,17 @@
                   "Spring": 8,
                   "Summer": 7
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7380,
+                "ABSN": 6380
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NWU": 960,
+                "Seattle University": 4680,
+                "PLU": 6380,
+                "NU": 240,
+                "SPU": 1500
               }
             },
             "preceptor": {
@@ -17197,6 +19537,17 @@
                   "Spring": 8,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7380,
+                "ABSN": 6380
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "NWU": 960,
+                "Seattle University": 4680,
+                "PLU": 6380,
+                "NU": 240,
+                "SPU": 1500
               }
             },
             "nonPreceptor": {
@@ -17256,7 +19607,9 @@
                   "Spring": 0,
                   "Summer": 7
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -17324,6 +19677,17 @@
                 "Spring": 8,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 3740,
+              "BSN": 2400,
+              "ADN": 780
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 3740,
+              "GRC": 528,
+              "RTC": 780,
+              "Seattle University": 1872
             }
           },
           "segments": {
@@ -17387,6 +19751,17 @@
                   "Spring": 8,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 3740,
+                "BSN": 2400,
+                "ADN": 780
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3740,
+                "GRC": 528,
+                "RTC": 780,
+                "Seattle University": 1872
               }
             },
             "preceptor": {
@@ -17442,6 +19817,17 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 3740,
+                "BSN": 2400,
+                "ADN": 780
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 3740,
+                "GRC": 528,
+                "RTC": 780,
+                "Seattle University": 1872
               }
             },
             "nonPreceptor": {
@@ -17492,7 +19878,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -17544,6 +19932,12 @@
                 "Spring": 2,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2640
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 2640
             }
           },
           "segments": {
@@ -17591,6 +19985,12 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2640
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2640
               }
             },
             "preceptor": {
@@ -17624,6 +20024,12 @@
                   "Spring": 2,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2640
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2640
               }
             },
             "nonPreceptor": {
@@ -17659,7 +20065,9 @@
                   "Spring": 12,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -17717,6 +20125,16 @@
                 "Spring": 2,
                 "Summer": 4
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 1608,
+              "BSN": 3476
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "TCC": 1080,
+              "PLU": 2420,
+              "GRC": 1056,
+              "RTC": 528
             }
           },
           "segments": {
@@ -17770,6 +20188,16 @@
                   "Spring": 2,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1608,
+                "BSN": 3476
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 1080,
+                "PLU": 2420,
+                "GRC": 1056,
+                "RTC": 528
               }
             },
             "preceptor": {
@@ -17816,6 +20244,16 @@
                   "Spring": 2,
                   "Summer": 4
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 1608,
+                "BSN": 3476
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 1080,
+                "PLU": 2420,
+                "GRC": 1056,
+                "RTC": 528
               }
             },
             "nonPreceptor": {
@@ -17865,7 +20303,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -17922,6 +20362,15 @@
                 "Spring": 27,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2400,
+              "ADN": 4092
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 2400,
+              "SPSCC": 2772,
+              "GHC": 1320
             }
           },
           "segments": {
@@ -17974,6 +20423,15 @@
                   "Spring": 27,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2400,
+                "ADN": 4092
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 2400,
+                "SPSCC": 2772,
+                "GHC": 1320
               }
             },
             "preceptor": {
@@ -18019,6 +20477,15 @@
                   "Spring": 11,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2400,
+                "ADN": 4092
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 2400,
+                "SPSCC": 2772,
+                "GHC": 1320
               }
             },
             "nonPreceptor": {
@@ -18067,7 +20534,9 @@
                   "Spring": 16,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -18104,6 +20573,12 @@
                 "Spring": 0,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 528
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "GRC": 528
             }
           },
           "segments": {
@@ -18136,6 +20611,12 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "GRC": 528
               }
             },
             "preceptor": {
@@ -18167,6 +20648,12 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 528
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "GRC": 528
               }
             },
             "nonPreceptor": {
@@ -18178,7 +20665,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -18260,6 +20749,16 @@
                 "Spring": 0,
                 "Summer": 2
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 10906,
+              "ADN": 264
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "GRC": 2376,
+              "PLU": 7480,
+              "SMU": 1050,
+              "RTC": 264
             }
           },
           "segments": {
@@ -18337,6 +20836,16 @@
                   "Spring": 0,
                   "Summer": 2
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10906,
+                "ADN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "GRC": 2376,
+                "PLU": 7480,
+                "SMU": 1050,
+                "RTC": 264
               }
             },
             "preceptor": {
@@ -18383,6 +20892,16 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10906,
+                "ADN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "GRC": 2376,
+                "PLU": 7480,
+                "SMU": 1050,
+                "RTC": 264
               }
             },
             "nonPreceptor": {
@@ -18457,7 +20976,9 @@
                   "Spring": 0,
                   "Summer": 2
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -18529,6 +21050,18 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 4790,
+              "ADN": 4608,
+              "LPN-BSN": 300
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 1350,
+              "PLU": 3080,
+              "TCC": 3420,
+              "SPSCC": 1188,
+              "GRC": 660
             }
           },
           "segments": {
@@ -18596,6 +21129,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 4790,
+                "ADN": 4608,
+                "LPN-BSN": 300
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1350,
+                "PLU": 3080,
+                "TCC": 3420,
+                "SPSCC": 1188,
+                "GRC": 660
               }
             },
             "preceptor": {
@@ -18652,6 +21197,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 4790,
+                "ADN": 4608,
+                "LPN-BSN": 300
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 1350,
+                "PLU": 3080,
+                "TCC": 3420,
+                "SPSCC": 1188,
+                "GRC": 660
               }
             },
             "nonPreceptor": {
@@ -18708,7 +21265,9 @@
                   "Spring": 56,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -18764,6 +21323,15 @@
                 "Spring": 10,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 3168,
+              "ADN": 1188
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 2640,
+              "GRC": 528,
+              "SPSCC": 1188
             }
           },
           "segments": {
@@ -18815,6 +21383,15 @@
                   "Spring": 10,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3168,
+                "ADN": 1188
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2640,
+                "GRC": 528,
+                "SPSCC": 1188
               }
             },
             "preceptor": {
@@ -18860,6 +21437,15 @@
                   "Spring": 3,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 3168,
+                "ADN": 1188
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 2640,
+                "GRC": 528,
+                "SPSCC": 1188
               }
             },
             "nonPreceptor": {
@@ -18906,7 +21492,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -18987,6 +21575,16 @@
                 "Spring": 9,
                 "Summer": 5
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 7192,
+              "ADN": 6660
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 4180,
+              "TCC": 6660,
+              "GRC": 2112,
+              "SMU": 900
             }
           },
           "segments": {
@@ -19063,6 +21661,16 @@
                   "Spring": 9,
                   "Summer": 5
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7192,
+                "ADN": 6660
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 4180,
+                "TCC": 6660,
+                "GRC": 2112,
+                "SMU": 900
               }
             },
             "preceptor": {
@@ -19109,6 +21717,16 @@
                   "Spring": 5,
                   "Summer": 8
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 7192,
+                "ADN": 6660
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 4180,
+                "TCC": 6660,
+                "GRC": 2112,
+                "SMU": 900
               }
             },
             "nonPreceptor": {
@@ -19183,7 +21801,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -19260,6 +21880,16 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 8304,
+              "BSN": 1350,
+              "LPN-BSN": 200
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "LCC": 5544,
+              "CC": 2760,
+              "SMU": 1550
             }
           },
           "segments": {
@@ -19332,6 +21962,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8304,
+                "BSN": 1350,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCC": 5544,
+                "CC": 2760,
+                "SMU": 1550
               }
             },
             "preceptor": {
@@ -19387,6 +22027,16 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 8304,
+                "BSN": 1350,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "LCC": 5544,
+                "CC": 2760,
+                "SMU": 1550
               }
             },
             "nonPreceptor": {
@@ -19438,7 +22088,9 @@
                   "Spring": 16,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -19513,6 +22165,19 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 10164,
+              "ADN": 17277,
+              "LPN-BSN": 800
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "SMU": 4100,
+              "LCC": 4752,
+              "SPSCC": 5940,
+              "CC": 3120,
+              "PLU": 6864,
+              "GHC": 3465
             }
           },
           "segments": {
@@ -19583,6 +22248,19 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10164,
+                "ADN": 17277,
+                "LPN-BSN": 800
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 4100,
+                "LCC": 4752,
+                "SPSCC": 5940,
+                "CC": 3120,
+                "PLU": 6864,
+                "GHC": 3465
               }
             },
             "preceptor": {
@@ -19640,6 +22318,19 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 10164,
+                "ADN": 17277,
+                "LPN-BSN": 800
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "SMU": 4100,
+                "LCC": 4752,
+                "SPSCC": 5940,
+                "CC": 3120,
+                "PLU": 6864,
+                "GHC": 3465
               }
             },
             "nonPreceptor": {
@@ -19707,7 +22398,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -19759,7 +22452,9 @@
                 "Spring": 0,
                 "Summer": 0
               }
-            }
+            },
+            "byPreceptorHoursStudentType": {},
+            "byPreceptorHoursEducationalFacility": {}
           },
           "segments": {
             "inclusive": {
@@ -19806,7 +22501,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "preceptor": {
               "total": 0,
@@ -19817,7 +22514,9 @@
               "byHealthcareFacility": {},
               "byEducationalFacility": {},
               "byProgramType": {},
-              "byStudentTypeQuarter": {}
+              "byStudentTypeQuarter": {},
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             },
             "nonPreceptor": {
               "total": 14,
@@ -19863,7 +22562,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -19916,6 +22617,14 @@
                 "Spring": 1,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 3060,
+              "ABSN": 1100
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "TCC": 3060,
+              "PLU": 1100
             }
           },
           "segments": {
@@ -19964,6 +22673,14 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3060,
+                "ABSN": 1100
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 3060,
+                "PLU": 1100
               }
             },
             "preceptor": {
@@ -20007,6 +22724,14 @@
                   "Spring": 1,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 3060,
+                "ABSN": 1100
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 3060,
+                "PLU": 1100
               }
             },
             "nonPreceptor": {
@@ -20043,7 +22768,9 @@
                   "Spring": 8,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -20126,6 +22853,17 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 2700,
+              "BSN": 3320,
+              "ABSN": 1100,
+              "LPN-BSN": 200
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "TCC": 2700,
+              "PLU": 3520,
+              "SMU": 1100
             }
           },
           "segments": {
@@ -20204,6 +22942,17 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2700,
+                "BSN": 3320,
+                "ABSN": 1100,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 2700,
+                "PLU": 3520,
+                "SMU": 1100
               }
             },
             "preceptor": {
@@ -20267,6 +23016,17 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 2700,
+                "BSN": 3320,
+                "ABSN": 1100,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "TCC": 2700,
+                "PLU": 3520,
+                "SMU": 1100
               }
             },
             "nonPreceptor": {
@@ -20313,7 +23073,9 @@
                   "Spring": 12,
                   "Summer": 12
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -20364,6 +23126,12 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 880
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 880
             }
           },
           "segments": {
@@ -20410,6 +23178,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 880
               }
             },
             "preceptor": {
@@ -20441,6 +23215,12 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 880
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 880
               }
             },
             "nonPreceptor": {
@@ -20474,7 +23254,9 @@
                   "Spring": 0,
                   "Summer": 0
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -20551,6 +23333,14 @@
                 "Spring": 5,
                 "Summer": 3
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "BSN": 2128,
+              "ABSN": 3960
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 4840,
+              "Seattle University": 1248
             }
           },
           "segments": {
@@ -20623,6 +23413,14 @@
                   "Spring": 5,
                   "Summer": 3
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2128,
+                "ABSN": 3960
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 4840,
+                "Seattle University": 1248
               }
             },
             "preceptor": {
@@ -20666,6 +23464,14 @@
                   "Spring": 4,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "BSN": 2128,
+                "ABSN": 3960
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 4840,
+                "Seattle University": 1248
               }
             },
             "nonPreceptor": {
@@ -20726,7 +23532,9 @@
                   "Spring": 5,
                   "Summer": 3
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -20833,6 +23641,18 @@
                 "Spring": 0,
                 "Summer": 0
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ABSN": 12760,
+              "BSN": 8616,
+              "ADN": 8280,
+              "LPN-BSN": 200
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "PLU": 20020,
+              "TCC": 8280,
+              "GRC": 1056,
+              "SMU": 500
             }
           },
           "segments": {
@@ -20935,6 +23755,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 12760,
+                "BSN": 8616,
+                "ADN": 8280,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 20020,
+                "TCC": 8280,
+                "GRC": 1056,
+                "SMU": 500
               }
             },
             "preceptor": {
@@ -20999,6 +23831,18 @@
                   "Spring": 0,
                   "Summer": 0
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ABSN": 12760,
+                "BSN": 8616,
+                "ADN": 8280,
+                "LPN-BSN": 200
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "PLU": 20020,
+                "TCC": 8280,
+                "GRC": 1056,
+                "SMU": 500
               }
             },
             "nonPreceptor": {
@@ -21080,7 +23924,9 @@
                   "Spring": 10,
                   "Summer": 30
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         },
@@ -21172,6 +24018,14 @@
                 "Spring": 0,
                 "Summer": 24
               }
+            },
+            "byPreceptorHoursStudentType": {
+              "ADN": 240,
+              "BSN": 264
+            },
+            "byPreceptorHoursEducationalFacility": {
+              "CC": 240,
+              "GRC": 264
             }
           },
           "segments": {
@@ -21259,6 +24113,14 @@
                   "Spring": 0,
                   "Summer": 24
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 240,
+                "BSN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "CC": 240,
+                "GRC": 264
               }
             },
             "preceptor": {
@@ -21301,6 +24163,14 @@
                   "Spring": 0,
                   "Summer": 1
                 }
+              },
+              "byPreceptorHoursStudentType": {
+                "ADN": 240,
+                "BSN": 264
+              },
+              "byPreceptorHoursEducationalFacility": {
+                "CC": 240,
+                "GRC": 264
               }
             },
             "nonPreceptor": {
@@ -21385,7 +24255,9 @@
                   "Spring": 0,
                   "Summer": 24
                 }
-              }
+              },
+              "byPreceptorHoursStudentType": {},
+              "byPreceptorHoursEducationalFacility": {}
             }
           }
         }

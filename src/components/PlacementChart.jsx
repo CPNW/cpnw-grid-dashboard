@@ -42,8 +42,8 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
   }
 
   const shouldUseHorizontal = horizontal || (autoHorizontal && chartData.some(item => item[nameKey].length > 14));
-  const chartHeight = shouldUseHorizontal ? Math.max(260, chartData.length * 42) : 260;
-  const focusHeight = shouldUseHorizontal ? Math.max(520, chartData.length * 48) : 520;
+  const chartHeight = chartType === 'pie' ? 320 : shouldUseHorizontal ? Math.max(260, chartData.length * 42) : 260;
+  const focusHeight = chartType === 'pie' ? 580 : shouldUseHorizontal ? Math.max(520, chartData.length * 48) : 520;
   const total = chartData.reduce((sum, item) => sum + item[dataKey], 0);
   const formatValueLabel = (value) => value.toLocaleString();
 
@@ -51,18 +51,19 @@ export default function PlacementChart({ data, title, dataKey = 'value', nameKey
     <div className="min-w-0" style={{ height }}>
       <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
         {chartType === 'pie' ? (
-          <PieChart>
+          <PieChart margin={{ top: 28, right: 28, bottom: 8, left: 28 }}>
             <Tooltip
               contentStyle={{ background: '#ffffff', borderRadius: '8px', border: '1px solid #d9e1ea', color: '#18222f' }}
               formatter={(value) => [`${value.toLocaleString()} (${total ? Math.round((value / total) * 100) : 0}%)`, 'Count']}
             />
-            <Legend verticalAlign="bottom" height={focusMode ? 48 : 36} />
+            <Legend verticalAlign="bottom" height={focusMode ? 72 : 56} />
             <Pie
               data={chartData}
               dataKey={dataKey}
               nameKey={nameKey}
+              cy={focusMode ? '45%' : '44%'}
               innerRadius={focusMode ? 96 : 56}
-              outerRadius={focusMode ? 170 : 98}
+              outerRadius={focusMode ? 154 : 90}
               paddingAngle={2}
               label={({ name, value }) => `${name}: ${value.toLocaleString()} (${total ? Math.round((value / total) * 100) : 0}%)`}
             >

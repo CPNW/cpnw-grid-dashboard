@@ -29,6 +29,11 @@ const REPORT_TYPES = [
 ];
 
 const QUARTERS = ['Fall', 'Winter', 'Spring', 'Summer'];
+const SHIFT_PARAMETERS = {
+  Day: '6:00 AM-1:59 PM',
+  Evening: '2:00 PM-9:59 PM',
+  Night: '10:00 PM-11:59 PM',
+};
 
 function getPlacementSource(facility, reportType) {
   return facility.segments?.[reportType] || facility.placements;
@@ -66,6 +71,8 @@ function aggregateFacilities(facilities, reportType) {
     byEducationalFacility: {},
     byProgramType: {},
     byStudentTypeQuarter: {},
+    byPreceptorHoursStudentType: {},
+    byPreceptorHoursEducationalFacility: {},
   };
 
   facilities.forEach(facility => {
@@ -260,13 +267,32 @@ function DashboardContent() {
                   autoHorizontal={activeType.id !== 'inclusive'}
                 />
               </div>
-              <div className="col-12">
-                {activeType.id === 'inclusive' ? (
+              <div className={activeType.id === 'preceptor' ? 'col-12 col-xl-5' : 'col-12'}>
+                {activeType.id === 'nonPreceptor' ? (
                   <ShiftBreakdown title="Total Placements by Shift Type" data={data.byShift} total={data.total} />
                 ) : (
                   <PlacementChart title="Start Dates by Quarter" data={data.byQuarter} chartType="pie" />
                 )}
               </div>
+              {activeType.id === 'preceptor' && (
+                <>
+                  <div className="col-12 col-xl-7">
+                    <PlacementChart
+                      title="Total Preceptor Hours by Type of Student"
+                      data={data.byPreceptorHoursStudentType}
+                      showValues
+                    />
+                  </div>
+                  <div className="col-12">
+                    <PlacementChart
+                      title="Total Preceptor Hours by School"
+                      data={data.byPreceptorHoursEducationalFacility}
+                      horizontal
+                      showValues
+                    />
+                  </div>
+                </>
+              )}
               <div className="col-12 col-xl-6">
                 <PlacementChart
                   title="Total Placements by Healthcare Facility"
@@ -342,10 +368,15 @@ function ShiftBreakdown({ data, total, title }) {
       <div className="shift-breakdown">
         {rows.map(([shift, value]) => {
           const percent = total ? Math.round((value / total) * 100) : 0;
+          const shiftParameter = SHIFT_PARAMETERS[shift];
+
           return (
             <div className="shift-row" key={shift}>
               <div className="d-flex align-items-center justify-content-between gap-3">
-                <span className="fw-bold panel-title">{shift}</span>
+                <span>
+                  <span className="fw-bold panel-title">{shift}</span>
+                  {shiftParameter && <span className="shift-parameter">{shiftParameter}</span>}
+                </span>
                 <span className="panel-muted">{value.toLocaleString()} | {percent}%</span>
               </div>
               <div className="progress shift-progress" role="progressbar" aria-label={`${shift} ${percent}%`} aria-valuenow={percent} aria-valuemin="0" aria-valuemax="100">

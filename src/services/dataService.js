@@ -153,6 +153,8 @@ export function parseFacilityData(rawData, url) {
     byEducationalFacility: {},
     byProgramType: {},
     byStudentTypeQuarter: {},
+    byPreceptorHoursStudentType: {},
+    byPreceptorHoursEducationalFacility: {},
   });
 
   const placements = createPlacementBucket();
@@ -162,8 +164,9 @@ export function parseFacilityData(rawData, url) {
     nonPreceptor: createPlacementBucket(),
   };
 
-  const addRowToBucket = (bucket, row, rowPlacements, placementsPerRotation) => {
+  const addRowToBucket = (bucket, row, rowPlacements, placementsPerRotation, preceptorHours) => {
     const studentType = normalizeStudentType(row[studentTypeCol]);
+    const educationalFacility = normalizeEducationalFacility(row[nursingProgramCol]);
 
     bucket.total += rowPlacements;
     addCount(bucket.byShift, row[shiftCol], rowPlacements);
@@ -171,7 +174,9 @@ export function parseFacilityData(rawData, url) {
     addCount(bucket.byProgramType, studentType, rowPlacements);
     addCount(bucket.byProgress, row[progressCol], rowPlacements);
     addCount(bucket.byHealthcareFacility, row[healthcareFacilityCol] || facilityName, rowPlacements);
-    addCount(bucket.byEducationalFacility, normalizeEducationalFacility(row[nursingProgramCol]), rowPlacements);
+    addCount(bucket.byEducationalFacility, educationalFacility, rowPlacements);
+    addCount(bucket.byPreceptorHoursStudentType, studentType, preceptorHours);
+    addCount(bucket.byPreceptorHoursEducationalFacility, educationalFacility, preceptorHours);
 
     if (studentType) {
       bucket.byStudentTypeQuarter[studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
@@ -195,8 +200,8 @@ export function parseFacilityData(rawData, url) {
     const preceptorHours = toCount(row[preceptorHoursCol]) + toCount(row[totalPreceptorHoursCol]);
     const segmentKey = preceptorHours > 0 ? 'preceptor' : 'nonPreceptor';
 
-    addRowToBucket(segments.inclusive, row, rowPlacements, placementsPerRotation);
-    addRowToBucket(segments[segmentKey], row, rowPlacements, placementsPerRotation);
+    addRowToBucket(segments.inclusive, row, rowPlacements, placementsPerRotation, preceptorHours);
+    addRowToBucket(segments[segmentKey], row, rowPlacements, placementsPerRotation, preceptorHours);
   });
   
   return {
@@ -232,6 +237,8 @@ export function aggregateData(facilities, region = null, facility = null, segmen
     byEducationalFacility: {},
     byProgramType: {},
     byStudentTypeQuarter: {},
+    byPreceptorHoursStudentType: {},
+    byPreceptorHoursEducationalFacility: {},
     facilities: filtered.map(f => f.name)
   };
   
