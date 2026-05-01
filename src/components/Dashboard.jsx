@@ -410,7 +410,7 @@ function FacilityTable({ facilities, title }) {
               <th>Facility</th>
               <th>Region</th>
               <th className="text-end">Placements</th>
-              <th>Top Student Type</th>
+              <th className="student-type-col">Top Student Type</th>
             </tr>
           </thead>
           <tbody>
@@ -422,7 +422,7 @@ function FacilityTable({ facilities, title }) {
                   <td className="fw-semibold">{facility.name}</td>
                   <td>{facility.region}</td>
                   <td className="text-end fw-semibold">{facility.placements.total.toLocaleString()}</td>
-                  <td>
+                  <td className="student-type-col">
                     <span className="fw-semibold">{studentType}</span>
                     <span className="panel-muted"> · {studentTypeTotal.toLocaleString()}</span>
                   </td>
