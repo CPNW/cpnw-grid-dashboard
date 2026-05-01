@@ -410,18 +410,25 @@ function FacilityTable({ facilities, title }) {
               <th>Facility</th>
               <th>Region</th>
               <th className="text-end">Placements</th>
-              <th className="text-end">Quarter Starts</th>
+              <th>Top Student Type</th>
             </tr>
           </thead>
           <tbody>
-            {facilities.map(facility => (
-              <tr key={`${facility.region}-${facility.name}`}>
-                <td className="fw-semibold">{facility.name}</td>
-                <td>{facility.region}</td>
-                <td className="text-end fw-semibold">{facility.placements.total.toLocaleString()}</td>
-                <td className="text-end">{sumValues(facility.placements.byQuarter).toLocaleString()}</td>
-              </tr>
-            ))}
+            {facilities.map(facility => {
+              const [studentType, studentTypeTotal] = getTopEntry(facility.placements.byStudentType);
+
+              return (
+                <tr key={`${facility.region}-${facility.name}`}>
+                  <td className="fw-semibold">{facility.name}</td>
+                  <td>{facility.region}</td>
+                  <td className="text-end fw-semibold">{facility.placements.total.toLocaleString()}</td>
+                  <td>
+                    <span className="fw-semibold">{studentType}</span>
+                    <span className="panel-muted"> · {studentTypeTotal.toLocaleString()}</span>
+                  </td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
