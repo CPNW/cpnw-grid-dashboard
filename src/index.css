@@ -275,7 +275,7 @@ body.focus-open {
   top: 50%;
   transform: translate(-50%, -50%);
   width: min(430px, 46vw);
-  opacity: 0.13;
+  opacity: 0.21;
   pointer-events: none;
 }
 
@@ -357,6 +357,14 @@ body.focus-open {
 .shift-row {
   display: grid;
   gap: 8px;
+}
+
+.shift-parameter {
+  display: inline-block;
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
 }
 
 .shift-progress {
