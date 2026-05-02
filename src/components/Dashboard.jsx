@@ -35,10 +35,6 @@ const SHIFT_PARAMETERS = {
   Night: '10:00 PM-11:59 PM',
 };
 
-function getPlacementSource(facility, reportType) {
-  return facility.segments?.[reportType] || facility.placements;
-}
-
 function makeReportPages(regions) {
   const scopes = [
     { id: 'all', label: 'All Facilities', region: null },
@@ -60,7 +56,17 @@ function parseActivePage(pageId, reportGroups) {
   return reportGroups.flatMap(group => group.pages).find(page => page.id === pageId) || reportGroups[0]?.pages[0];
 }
 
-function aggregateFacilities(facilities, reportType) {
+function getFacilityRows(facility, reportType) {
+  const rows = facility.rows || [];
+  if (reportType === 'inclusive') return rows;
+  return rows.filter(row => row.segment === reportType);
+}
+
+function getFilterOptions(rows, key) {
+  return [...new Set(rows.map(row => row[key]).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+function aggregateRows(rows) {
   const aggregate = {
     total: 0,
     byShift: {},
@@ -75,26 +81,32 @@ function aggregateFacilities(facilities, reportType) {
     byPreceptorHoursEducationalFacility: {},
   };
 
-  facilities.forEach(facility => {
-    const source = getPlacementSource(facility, reportType);
-    aggregate.total += source.total || 0;
+  const addValue = (target, key, value) => {
+    if (!key || value <= 0) return;
+    target[key] = (target[key] || 0) + value;
+  };
 
-    Object.entries(aggregate).forEach(([key, target]) => {
-      if (!key.startsWith('by')) return;
+  rows.forEach(row => {
+    aggregate.total += row.placements || 0;
+    addValue(aggregate.byShift, row.shift, row.placements);
+    addValue(aggregate.byStudentType, row.studentType, row.placements);
+    addValue(aggregate.byProgramType, row.programType, row.placements);
+    addValue(aggregate.byProgress, row.progress, row.placements);
+    addValue(aggregate.byHealthcareFacility, row.healthcareFacility, row.placements);
+    addValue(aggregate.byEducationalFacility, row.educationalFacility, row.placements);
+    addValue(aggregate.byPreceptorHoursStudentType, row.studentType, row.preceptorHours);
+    addValue(aggregate.byPreceptorHoursEducationalFacility, row.educationalFacility, row.preceptorHours);
 
-      if (key === 'byStudentTypeQuarter') {
-        Object.entries(source.byStudentTypeQuarter || {}).forEach(([studentType, quarters]) => {
-          target[studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
-          Object.entries(quarters).forEach(([quarter, value]) => {
-            target[studentType][quarter] = (target[studentType][quarter] || 0) + value;
-          });
-        });
-        return;
+    if (row.studentType) {
+      aggregate.byStudentTypeQuarter[row.studentType] ||= { total: 0, Fall: 0, Winter: 0, Spring: 0, Summer: 0 };
+      aggregate.byStudentTypeQuarter[row.studentType].total += row.placements || 0;
+    }
+
+    Object.entries(row.byQuarter || {}).forEach(([quarter, value]) => {
+      addValue(aggregate.byQuarter, quarter, value);
+      if (row.studentType) {
+        aggregate.byStudentTypeQuarter[row.studentType][quarter] += value;
       }
-
-      Object.entries(source[key] || {}).forEach(([name, value]) => {
-        target[name] = (target[name] || 0) + value;
-      });
     });
   });
 
@@ -104,6 +116,9 @@ function aggregateFacilities(facilities, reportType) {
 function DashboardContent() {
   const [activePageId, setActivePageId] = useState('all-inclusive');
   const [selectedAcademicYear, setSelectedAcademicYear] = useState(null);
+  const [selectedSchool, setSelectedSchool] = useState('');
+  const [selectedProgram, setSelectedProgram] = useState('');
+  const [selectedHealthcareFacility, setSelectedHealthcareFacility] = useState('');
 
   const {
     academicYears,
@@ -120,7 +135,15 @@ function DashboardContent() {
   const activeType = activePage?.type || REPORT_TYPES[0];
 
   const scopedFacilities = facilities.filter(facility => !activeScope.region || facility.region === activeScope.region);
-  const data = aggregateFacilities(scopedFacilities, activeType.id);
+  const reportRows = scopedFacilities.flatMap(facility => getFacilityRows(facility, activeType.id));
+  const schoolOptions = getFilterOptions(reportRows, 'educationalFacility');
+  const programOptions = getFilterOptions(reportRows, 'programType');
+  const healthcareFacilityOptions = getFilterOptions(reportRows, 'healthcareFacility');
+  const filteredRows = reportRows
+    .filter(row => !selectedSchool || row.educationalFacility === selectedSchool)
+    .filter(row => !selectedProgram || row.programType === selectedProgram)
+    .filter(row => !selectedHealthcareFacility || row.healthcareFacility === selectedHealthcareFacility);
+  const data = aggregateRows(filteredRows);
   const educationFacilityCount = Object.keys(data.byEducationalFacility).length;
   const healthcareFacilityCount = Object.keys(data.byHealthcareFacility).length;
   const visibleKpis = [
@@ -133,6 +156,12 @@ function DashboardContent() {
 
   const handleAcademicYearChange = (event) => {
     setSelectedAcademicYear(event.target.value);
+  };
+
+  const resetReportFilters = () => {
+    setSelectedSchool('');
+    setSelectedProgram('');
+    setSelectedHealthcareFacility('');
   };
 
   if (isLoading) {
@@ -187,6 +216,51 @@ function DashboardContent() {
                   <option key={year} value={year}>{year}</option>
                 ))}
               </select>
+              <div className="mt-3">
+                <label className="form-label filter-label" htmlFor="schoolFilter">School</label>
+                <select
+                  id="schoolFilter"
+                  className="form-select"
+                  value={selectedSchool}
+                  onChange={event => setSelectedSchool(event.target.value)}
+                >
+                  <option value="">All Schools</option>
+                  {schoolOptions.map(school => (
+                    <option key={school} value={school}>{school}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="mt-3">
+                <label className="form-label filter-label" htmlFor="programFilter">Program</label>
+                <select
+                  id="programFilter"
+                  className="form-select"
+                  value={selectedProgram}
+                  onChange={event => setSelectedProgram(event.target.value)}
+                >
+                  <option value="">All Programs</option>
+                  {programOptions.map(program => (
+                    <option key={program} value={program}>{program}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="mt-3">
+                <label className="form-label filter-label" htmlFor="healthcareFacilityFilter">Healthcare Facility</label>
+                <select
+                  id="healthcareFacilityFilter"
+                  className="form-select"
+                  value={selectedHealthcareFacility}
+                  onChange={event => setSelectedHealthcareFacility(event.target.value)}
+                >
+                  <option value="">All Healthcare Facilities</option>
+                  {healthcareFacilityOptions.map(facility => (
+                    <option key={facility} value={facility}>{facility}</option>
+                  ))}
+                </select>
+              </div>
+              <button className="btn btn-light fw-bold w-100 mt-3" type="button" onClick={resetReportFilters}>
+                Reset filters
+              </button>
             </section>
 
             <section className="report-nav-panel mb-3">
