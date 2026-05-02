@@ -163,6 +163,7 @@ export function parseFacilityData(rawData, url) {
     preceptor: createPlacementBucket(),
     nonPreceptor: createPlacementBucket(),
   };
+  const placementRows = [];
 
   const addRowToBucket = (bucket, row, rowPlacements, placementsPerRotation, preceptorHours) => {
     const studentType = normalizeStudentType(row[studentTypeCol]);
@@ -199,6 +200,32 @@ export function parseFacilityData(rawData, url) {
     const placementsPerRotation = toCount(row[placementsPerRotationCol]) || rowPlacements;
     const preceptorHours = toCount(row[preceptorHoursCol]) + toCount(row[totalPreceptorHoursCol]);
     const segmentKey = preceptorHours > 0 ? 'preceptor' : 'nonPreceptor';
+    const studentType = normalizeStudentType(row[studentTypeCol]);
+    const educationalFacility = normalizeEducationalFacility(row[nursingProgramCol]);
+    const healthcareFacility = String(row[healthcareFacilityCol] || facilityName).trim();
+    const byQuarter = {};
+
+    quarterCols.forEach(([quarter, col]) => {
+      if (col >= 0) {
+        const quarterTotal = toCount(row[col]) * placementsPerRotation;
+        if (quarterTotal > 0) {
+          byQuarter[quarter] = quarterTotal;
+        }
+      }
+    });
+
+    placementRows.push({
+      placements: rowPlacements,
+      preceptorHours,
+      segment: segmentKey,
+      shift: String(row[shiftCol] || '').trim(),
+      studentType,
+      programType: studentType,
+      progress: String(row[progressCol] || '').trim(),
+      educationalFacility,
+      healthcareFacility,
+      byQuarter,
+    });
 
     addRowToBucket(segments.inclusive, row, rowPlacements, placementsPerRotation, preceptorHours);
     addRowToBucket(segments[segmentKey], row, rowPlacements, placementsPerRotation, preceptorHours);
@@ -210,6 +237,7 @@ export function parseFacilityData(rawData, url) {
     url,
     placements,
     segments,
+    rows: placementRows,
   };
 }
 
